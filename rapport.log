@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  26 NOV 2011 18:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  27 NOV 2011 11:53
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-201111261134)...disabled.
+runsystem(touch /tmp/w18-test-20111127713)...disabled.
 
-runsystem(rm -f /tmp/w18-test-201111261134)...disabled.
+runsystem(rm -f /tmp/w18-test-20111127713)...disabled.
 
 
 
@@ -1695,111 +1695,85 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (17.50423pt too wide) in paragraph at lines 69--70
-[]\T1/futs/m/n/10.95 Als Quel-len für $\FML/futmi/m/it/10.95 ^^M$\T1/futs/m/n/1
-0.95 -Strahlung kom-men nach [[]] ver-schie-denste ga-lak-tische und extra-gala
-ktische
+Overfull \hbox (2.45686pt too wide) in paragraph at lines 57--68
+[]\T1/cmtt/m/n/8 TODO \T1/futs/m/n/8 Sa-bine : über-set-zen und kür-zen, ev. An
+t-wor-ten ergän-zen[] \T1/futs/m/n/10.95 Les gerbes at-mo-sphè-riques sont créé
+es quand
  []
 
-
-Overfull \hbox (4.2079pt too wide) in paragraph at lines 82--84
-\T1/futs/m/n/10.95 wen-dig, die Un-ter-schiede zwi-schen elek-tro-ma-gne-ti-sch
-en und ha-dro-ni-schen Kas-ka-den zu ken-
- []
-
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 95.
-
-LaTeX Warning: Reference `fig:absorption' on page 3 undefined on input line 95.
-
-
-[3] <bilder/emschauer.jpg, id=119, 674.52pt x 537.50812pt>
+<bilder/emschauer.jpg, id=105, 674.52pt x 537.50812pt>
 File: bilder/emschauer.jpg Graphic file (type jpg)
 
-<use bilder/emschauer.jpg>
-Overfull \hbox (0.93652pt too wide) in paragraph at lines 121--123
+<use bilder/emschauer.jpg> [3 <./bilder/emschauer.jpg>]
+Overfull \hbox (0.93652pt too wide) in paragraph at lines 86--88
 \FML/futmi/m/it/10.95 ^^M$\T1/futs/m/n/10.95 -Strahlung er-zeugt wird. Das se-k
 undäre Pho-ton kann dann wie-de-rum ein Elektron-Positron-
  []
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.127 
-       <./bilder/emschauer.jpg>]
-<bilder/03.jpg, id=132, 710.655pt x 573.64313pt>
+<bilder/03.jpg, id=122, 710.655pt x 573.64313pt>
 File: bilder/03.jpg Graphic file (type jpg)
  <use bilder/03.jpg>
-Overfull \hbox (61.23491pt too wide) detected at line 152
+Overfull \hbox (61.23491pt too wide) detected at line 117
 [] []\T1/futs/m/n/10.95 2\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 551 \FMS/fu
 tm/m/n/10.95 ^^A \T1/futs/m/n/10.95 10[] s [] []8\FML/futmi/m/it/10.95 ; \T1/fu
 ts/m/n/10.95 4 \FMS/futm/m/n/10.95 ^^A \T1/futs/m/n/10.95 10[] s
  []
 
+<bilder/hadronischer_schauer.jpg, id=124, 915.42pt x 989.19562pt>
+File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
+
+<use bilder/hadronischer_schauer.jpg> [4pdfTeX warning (ext4): destination with
+ the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.141    \todo{ausfÃ¼hren}
+                          ]
+<bilder/pmtpuls.jpg, id=133, 323.2075pt x 190.7125pt>
+File: bilder/pmtpuls.jpg Graphic file (type jpg)
+ <use bilder/pmtpuls.jpg>
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.155 
-       <./bilder/03.jpg>]
-<bilder/hadronischer_schauer.jpg, id=141, 915.42pt x 989.19562pt>
-File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
-
-<use bilder/hadronischer_schauer.jpg> [6pdfTeX warning (ext4): destination with
- the same identifier (name{figure.3}) has been already used, duplicate ignored
+l.152 
+       <./bilder/03.jpg> <./bilder/pmtpuls.jpg>] [6pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.3}) has been already used, duplica
+te ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.176    \todo{ausfÃ¼hren}
-                           <./bilder/hadronischer_schauer.jpg>]
-
-LaTeX Warning: File `bilder/pmtpuls.jpg' not found on input line 179.
-
-
-! Package pdftex.def Error: File `bilder/pmtpuls.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 ...[width=0.5\textwidth]{bilder/pmtpuls.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7] (./rapport.bbl) (./rapport.lof [8])
+l.162    \subsubsection
+                       {InterprÃ©tation} <./bilder/hadronischer_schauer.jpg>]
+(./rapport.bbl) (./rapport.lof [7])
 \tf@lof=\write9
 \openout9 = `rapport.lof'.
 
- [9] (./rapport.aux)
+ [8] (./rapport.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20278 strings out of 495028
- 316888 string characters out of 1181228
- 486000 words of memory out of 3000000
- 22844 multiletter control sequences out of 15000+50000
- 94925 words of font info for 107 fonts, out of 3000000 for 9000
+ 20264 strings out of 495028
+ 316768 string characters out of 1181228
+ 488039 words of memory out of 3000000
+ 22843 multiletter control sequences out of 15000+50000
+ 88722 words of font info for 97 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  60i,17n,79p,663b,1024s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{/usr/sh
-are/texmf-texlive/fonts/enc/dvips/base/8r.enc} </home/sabine/.texmf-var/fonts/p
-k/ljfour/jknappen/ec/ectt0800.600pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.
-enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mex.pfb></usr/
-share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/p
-utb8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putr8a.pfb></usr/s
-hare/texmf-texlive/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on rapport.pdf (9 pages, 388852 bytes).
+ </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk>{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mex.
+pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr
+/share/texmf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adob
+e/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.
+pfb>
+Output written on rapport.pdf (8 pages, 373120 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

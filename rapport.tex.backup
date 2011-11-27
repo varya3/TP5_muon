@@ -53,43 +53,27 @@
  \tableofcontents
 \newpage
 
- \begin{section}{Théorie}
+ \begin{section}{Le rayonnement cosmique}
    \todo{Sabine: übersetzen und kürzen, ev. Antworten ergänzen}
-   Luftschauer entstehen, wenn die primäre kosmische Strahlung aus dem Weltall auf die Erdatmosphäre trifft. Von dem hochenergetischen primären Teilchen oder Photon werden über eine Kaskade eine Vielzahl von Sekundärteilchen erzeugt. Die primäre Kosmische Strahlung setzt sich wie folgt zusammen:
+   Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
    \begin{figure}[htb]
     \centering
     \begin{tabular}{lcr}
-     Wasserstoffkerne (Protonen) & $\simeq$ & 85~\%\\
-     Heliumkerne ($\alpha$-Teilchen) & $\simeq$ & 12~\%\\
-     Kerne mit Z $\geq 3$	& $\simeq$ & 2~\%\\ 
-     Elektronen, $\gamma$-Strahlen	& $\simeq$ & 1~\%\\
+     Protons (noyeaux de Hydrogen) & $\simeq$ & 85~\%\\
+     Particules $\alpha$ (nouyeaux d'Helium) & $\simeq$ & 12~\%\\
+     Noyeaux avec Z $\geq 3$	& $\simeq$ & 2~\%\\ 
+     Electrons, rayonnement $\gamma$	& $\simeq$ & 1~\%\\
     \end{tabular}\cite[S. 14]{burak}
    \end{figure}	
 
-   Als Quellen für $\gamma$-Strahlung kommen nach \cite{astroteilchen} verschiedenste galaktische und extra-galaktische Objekte in Frage oder sind als solche identifiziert:
-   \begin{itemize}
-    \item Überreste von Sternexplosionen
-    \begin{itemize}
-     \item Neutronensterne
-     \item Umfeld von schwarzen Löchern
-    \end{itemize}
-    \item Molekülwolken
-    \item Starburst Galaxien
-    \item Galaxienhaufen
-    \item Aktive Galaxienkerne (AGNs)
-    \item Gamma-Ray Bursts
-   \end{itemize}
-   Anhand der verschiedenen Komponenten der Sekundärstrahlung in einem Schauer können bei der Detektion am Erdboden Rückschlüsse auf die Primärstrahlung gezogen werden.
-   Die Schauer von $\gamma$-Strahlung unterscheiden sich dabei sehr von denen, die durch Hadronen ausgelöst werden. Da das Ziel verfolgt wird, ein einfaches $\gamma$-Teleskop zu realisieren, ist es notwendig, die Unterschiede zwischen elektromagnetischen und hadronischen Kaskaden zu kennen.
-
-
-   \subsection{Elektromagnetischer Schauer}
-    Photonen können drei für die Entstehung von Sekundärteilchen relevante Arten von Wechselwirkung eingehen:
+   \subsection{Gerbes électroniques}
+    Les photons peuvent interagir en trois fa\c con pour créer des particules secondaires:
     \begin{enumerate}
-     \item{Photoeffekt}
-     \item{Compton-Effekt}
-     \item{Elektron-Positron-Paarerzeugung}
+     \item{Effet photoélectrique}
+     \item{Effet Compton}
+     \item{Annihilation électron-positon}
     \end{enumerate}
+    Les photons d'énergie basse ne peuvent qu'integragir en effet photoélectrique et en effet Compton, quand à les photons de très haute énergie 
     Während bei niedrigen Photon-Energien nur der Photoeffekt und Comptoneffekt möglich sind, kann, wenn die Photonenergie größer als die doppelte Ruheenergie des Elektrons ist, im elektrischen Feld eines Atomkerns ein Elektron-Positron-Paar erzeugt werden.
 
     Betrachtet man die Massenabsorptionskoeffizienten der einzelnen Effekte in Abhängigkeit der Photonenenergie (vgl. Abb.~\ref{fig:absorption}), wird klar, dass bei hochenergetischen $\gamma$-Quanten nur noch die Elektron-Positron-Paarerzeugung von Bedeutung ist.
@@ -100,15 +84,7 @@
     \begin{equation*}
      E_{\gamma, \idx{min}} = 2 m_{\idx{e}} c^2 \left( 1 + \frac{m_{\idx{e}}}{M} \right)
     \end{equation*}
-    Paarbildung kann nicht im leeren Raum stattfinden, da dort Impuls und Energie nicht gleichzeitig erhalten bleiben können.\footnote{
-    Dies wird an folgendem Beispiel klar:\\
-    Man nehme an, ein Photon mit einer Energie von $ \hbar \omega $ zerfällt in ein Elektron und ein Positron mit je 	einer kinetischen Energie von $ (\gamma - 1)m_{\text{e}}c^2 $. Die einfachste Möglichkeit, wenn man versuchen will Energie und Impuls zu erhalten, wäre wenn sich das erzeugte Paar parallel zur Ausbreitungsrichtung des ursprünglichen Photons bewegt.\\
-    \begin{tabular}{rl}
-     Dann ist mit Energieerhaltung: & Energie d. Photons $= \hbar \omega = 2\gamma m_{\idx{e}}c^2$\\
-     & Impuls des Paars $ = 2 \gamma m_{\idx{e}} v = (\hbar \omega / c)(v/c)$\\
-     Aber: & Anfangsimpuls des Photons $ = \hbar \omega / c $
-    \end{tabular}\\
-    Da $v$ echt kleiner als $c$ sein muss, können Impuls- und Energieerhaltung im Vakuum also nicht simultan erfüllt sein.}
+    Paarbildung kann nicht im leeren Raum stattfinden, da dort Impuls und Energie nicht gleichzeitig erhalten bleiben können.
     Daher können $\gamma$-Photonen den Weltraum durchqueren und bilden erst in der Erdatmosphäre einen Schauer.
 
    \begin{figurehere}
@@ -120,6 +96,7 @@
      
   Abbildung \ref{fig:emschauer} zeigt ein einfaches Modell für einen elektromagnetischen Schauer, der durch $\gamma$-Strahlung erzeugt wird. 
   Das sekundäre Photon kann dann wiederum ein Elektron-Positron-Paar erzeugen. Die Kaskade hört auf, wenn die jeweilige Energie der Teilchen die Paarbildungsenergie unterschreitet und die Bremsstrahlung keine weiteren Photonen mehr erzeugen kann, die ihrerseits energiereich genug für die Paarbildung  sind.
+
  
   \subsection{Hadronische Kaskade}
    Hochenergetische Protonen oder schwerere Kerne, also die Hadronen der kosmischen Höhenstrahlung, stoßen in der Atmosphäre mit den Atomkernen der Luftmoleküle zusammen. Da im Mittel 50\% der hochenergetischen Protonen in der Atmosphäre bei einer Tiefe von ca. \unit[800]{kg\,m^{-2}} absorbiert werden und weil die Atmosphäre eine Tiefe von ca. $\unit[10\,000]{kg\,m^{-2}}$ ist \cite[S.~133]{longair} besitzt, reagieren die Teilchen bereits in den obersten Schichten und dringen nicht selbst bis zur Erdoberfläche durch. Nachgewiesen werden können sie daher nur über die von ihnen ausgelösten Sekundärteilchen-Schauer.
@@ -171,8 +148,61 @@
  \end{section}
   
  \begin{section}{Préliminaire}
+  \subsection{Préparation des photomultiplicateurs}
+   \todo{ausführen}
+   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
+   \begin{center}
+    \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
+   \end{center}
+  
+
+  \subsection{Réglage de la co\"{\i}ncidence}
+   \todo{neue Daten einsetzen}
+   \subsubsection{Générer un signal logique}
+    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé deux discriminateurs pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux des deux PMT sont observés à l'oscilloscope aous l'aspect s'ils sont en co\"{\i}ncidence.
+   
+  
+   \subsubsection{Comptage}
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[10]{s} a montré que les signaux sont comptés.
+   
+   
+   \subsubsection{Première mesure}
+    \todo{Daten}
+   
+
+   \subsubsection{Interprétation} 
+    Nous suposse que les dates sont decrit par la distribution de Poisson:
+    \begin{equation*}
+     P_{\mu}(n)=\frac{\mu^n}{n!}\cdot e^{-{\mu}}
+    \end{equation*}
+    Avec la moyenne $\mu$ et le nombre de fois $n$. On trouve pour $lim \; n {\rightarrow}  \infty$ que $\bar{n}$, la moyenne experimentale tend vers $\mu$ et l'écart type $\sigma$ vers $\sqrt{\mu}$:
+    \begin{equation*}
+     \bar{n}=\sum_{n=0}^{\infty} n \cdot P_{\mu}(n)=e^{-{\mu}}\sum_{n=1}^{\infty}\frac{\mu^n}{(n-1)!}=\mu \cdot  e^{-{\mu}}\sum_{k=0}^{\infty}\frac{\mu^k}{(k)!}=\mu \cdot e^{-{\mu}}\cdot  e^{{\mu}}=\mu
+    \end{equation*}
+
+    \begin{equation*}
+     \begin{split}
+      \sigma^2=\overline{(n-\bar{n}\,)^2}=\overline{n(n-1)}+\bar{n}-{\bar{n}}^2=\sum_{n=0} ^{N} n (n-1)\cdot P_{\mu}(n)+\mu -\mu^2=\\
+      e^{-{\mu}}\sum_{n=2}^{\infty}\frac{\mu^n}{(n-2)!}+\mu -\mu^2=\mu^2+ \mu -\mu^2=\mu
+     \end{split}
+    \end{equation*}
+    L'écart type de nos dates est dans les limites de $\sqrt{\mu}$ ce qui dit que les nombres mesurés sont bien. Il y a des petites différences qui peut être expliqué par le fait que plus des désintégration ou plus de bruit étaient mesuré.
+   
+  
+
+  \subsection{Mesure en co\"{\i}ncidence}
+   \todo{alles einsetzen}
+   \subsubsection{Détection}
  
+
+   \subsubsection{Bruit}
  \end{section}
+
+
+ \begin{section}{Mesure}
+  
+ \end{section}
+
 
  \begin{section}{Conclusion}
   
