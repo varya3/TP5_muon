@@ -54,8 +54,7 @@
 \newpage
 
  \begin{section}{Le rayonnement cosmique}
-   \todo{Sabine: übersetzen und kürzen, ev. Antworten ergänzen}
-   Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
+  Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
    \begin{figure}[htb]
     \centering
     \begin{tabular}{lcr}
@@ -74,67 +73,89 @@
      \item{Annihilation électron-positon}
     \end{enumerate}
     Un photon d'énergie basse ne peut qu'integragir en effet photoélectrique et en effet Compton avec une particules de l'atmosphère, quand à un photons de très haute énergie qui peut créer un pair dans le cortège électronique d'un atome si l'énergie du photon est plus grande que la double énergie au repos d'un électron. Le positon et l'électron de la création d'un pair envoyent des photons secondaires par rayonnement continu de freinage.
-    La création d'un pair ne peut pas avoir lieu dans le vide, car là il n'y a pas avoir en même temps la conservation d'impulse et d'énergie. Donc les photons $\gamma$ peuvent traverser l'espace et ne déchaîne un gerbe que dans l'atmosphère terrestre.
+    La création d'un pair électron-positon ne peut pas avoir lieu dans le vide, car là il n'y a pas avoir en même temps la conservation d'impulse et d'énergie. Donc les photons $\gamma$ peuvent traverser l'espace et ne déchaîne un gerbe que dans l'atmosphère terrestre.
 
-   \begin{figurehere}
-    \center 
-    \includegraphics[width=0.5\textwidth]{bilder/emschauer.jpg}   
-    \caption{Ablauf eines elektromagnetischen Schauers}   
-    \label{fig:emschauer}   
-   \end{figurehere}
-     
-  Abbildung \ref{fig:emschauer} zeigt ein einfaches Modell für einen elektromagnetischen Schauer, der durch $\gamma$-Strahlung erzeugt wird. 
-  Das sekundäre Photon kann dann wiederum ein Elektron-Positron-Paar erzeugen. Die Kaskade hört auf, wenn die jeweilige Energie der Teilchen die Paarbildungsenergie unterschreitet und die Bremsstrahlung keine weiteren Photonen mehr erzeugen kann, die ihrerseits energiereich genug für die Paarbildung  sind.
-
+    \begin{figurehere}
+     \begin{minipage}{0.45\textwidth}
+      \center 
+     \includegraphics[width=\textwidth]{bilder/emschauer.jpg}   
+     \caption{Modèle d'une gerbe électronique}   
+     \label{fig:emschauer}  
+     \end{minipage}
+     \begin{minipage}{0.5\textwidth}
+      Ce schéma \ref{fig:emschauer} montre le modèle d'une gerbe électronique crée par un photon $\gamma$. Un photon secondaire peut aussi générer un pair électron-positon. La gerbe s'arrête quand la particule genéré n'a pas l'énergie nécessaire pour créer un pair et le rayonnement continu de freinage ne peut non plus genérer des photons secondaire qui ont assez d'énergie pour créer un pair.
+     \end{minipage}
+    \end{figurehere}
  
-  \subsection{Hadronische Kaskade}
-   Hochenergetische Protonen oder schwerere Kerne, also die Hadronen der kosmischen Höhenstrahlung, stoßen in der Atmosphäre mit den Atomkernen der Luftmoleküle zusammen. Da im Mittel 50\% der hochenergetischen Protonen in der Atmosphäre bei einer Tiefe von ca. \unit[800]{kg\,m^{-2}} absorbiert werden und weil die Atmosphäre eine Tiefe von ca. $\unit[10\,000]{kg\,m^{-2}}$ ist \cite[S.~133]{longair} besitzt, reagieren die Teilchen bereits in den obersten Schichten und dringen nicht selbst bis zur Erdoberfläche durch. Nachgewiesen werden können sie daher nur über die von ihnen ausgelösten Sekundärteilchen-Schauer.
-
-   Bei der Kollision entstehen vor allem $\pi^+$, $\pi^-$ und $\pi^0$, alle drei Sorten von Pionen.\footnote{Weitere Produkte können \emph{Strange Particles}, und selten auch (Anti-)Nukleonen sein.} Von der Wechselwirkung mit den Atomkernen sind meist nur eines bis zwei der Nukleonen im Target-Kern betroffen. Diese werden jedoch so stark beeinflusst, dass sie aus dem Atomkern herausgeschleudert werden.
-
-   Nach einer hilfreichen empirischen Faustregel entstehen für einfallende Protonen mit einer Energie über \unit[1]{GeV} bei Kollisionen mit Luftmolekülen grob $2E^{1/4}$ neue, geladene und hochenergetische Teilchen, wobei $E$ in \unit{GeV} angegeben wird. Zur Veranschaulichung soll Abbildung  \ref{fig:preaktion} dienen.
+  \subsection{Cascade hadronique}
+   Les protons de très haute énergie ou les noyeaux lourds, appelés les hadrons, du rayonnement cosmique interagissent dans les couches supérieures de l'atmosphère avec les molécules de l'air. Pendant ce processus des particules secondaires en plupart des pions $\pi^+$, $\pi^-$ ou $\pi^0$ sont crées. 
    \begin{figure}[htb]
     \center
     \includegraphics[width=0.6\textwidth]{bilder/03.jpg}
-    \caption{Schematische Reaktion eines hochenergetischen Protons mit einem Atomkern in der Atmosphäre}
+    \caption{Schéma de la réaction d'un proton de très haute énergie avec un noyeau de l'atmosphère}
     \cite[S.~133]{longair}
     \label{fig:preaktion}
    \end{figure}
 
-   Im Flug zerfallen viele der geladenen Pionen in Myonen über die Reaktionen
+   Pendant leur vol les pions se désintègre en muon
    \begin{equation*}
-	\left.
-	\begin{array}[]{lll}
-		\pi^{+} & \rightarrow & \mu^{+} + \nu_{\mu}\\
-		\pi^{-} & \rightarrow & \mu^{-} + \overline{\nu}_{\mu}\\	
-	\end{array}
-	\right\} \idx{mittlere Lebensdauer: } \unit[2,551\cdot10^{-8}]{s}
-	\left.
-	\begin{array}[]{lll}
-	\pi^{0} & \rightarrow & 2\gamma	
-	\end{array}
-	\right\} \idx{mittlere Lebensdauer: } \unit[8,4\cdot10^{-17}]{s}
-	\end{equation*}
-
-   Die Myonen werden durch Ionisation abgebremst und zerfallen in Positronen, Elektronen und Myon- bzw. Elektron-(Anti-)Neutrinos
-
-  \begin{equation*}
-	\left.
-	\begin{array}[]{lll}
-		\mu^{+} & \rightarrow & \text{e}^{+} + \nu_{\text{e}} + \overline{\nu}_{\mu}\\
-		\mu^{-} & \rightarrow & \text{e}^{-} + \overline{\nu}_{\text{e}} + \nu_{\mu}
-	\end{array}
-	\right\} \text{mittlere Lebensdauer: } \unit[2,2001\cdot10^{-6}]{s}
+    \left.
+    \begin{array}[]{lll}
+     \pi^{+} & \rightarrow & \mu^{+} + \nu_{\mu}\\
+     \pi^{-} & \rightarrow & \mu^{-} + \overline{\nu}_{\mu}\\	
+    \end{array}
+    \right\} \idx{Durée de vie moyenne: } \tau=\unit[2,551\cdot10^{-8}]{s}
+    \left.
+    \begin{array}[]{lll}
+     \pi^{0} & \rightarrow & 2\gamma	
+    \end{array}
+    \right\} \tau=\unit[8,4\cdot10^{-17}]{s}
    \end{equation*}
 
-   In den obersten Luftschichten entstehen viele der Myonen, bevor die Pionen Gelegenheit zu weiteren Kernwechselwirkungen haben. Die entstandenen Produkte fliegen in einer gewölbten Scheibe zum Erdboden. Die Wölbung rührt daher, dass die Teilchen mit einem größeren Streuwinkel einen etwas längeren Weg zum Erdboden zurücklegen müssen. Von der gewaltigen Anzahl an Sekundärteilchen erreichen nur noch die relativ langlebigen Myonen die Erdoberfläche und können dort detektiert werden. 
+   Les muons sont freinés par ionisation est se désintègre en positons, électrons, (anti)neutrinos muoniques et (anti)neutrinos électroniques. 
 
-   \begin{figure}[htb]
+   \begin{equation*}
+    \left.
+    \begin{array}[]{lll}
+     \mu^{+} & \rightarrow & \text{e}^{+} + \nu_{\text{e}} + \overline{\nu}_{\mu}\\
+     \mu^{-} & \rightarrow & \text{e}^{-} + \overline{\nu}_{\text{e}} + \nu_{\mu}
+    \end{array}
+    \right\} \text{Durée de vie moyenne } \tau=\unit[2,2001\cdot10^{-6}]{s}
+   \end{equation*}
+
+   La plupart des particules secondaires est crées dans les couches supérieures de l'atmosphère par les hadrons. Les particules volent dans un disque vouté au sol. Cette voûte est causé par l'angle de diffusion différent des particules. .Les particules avec un angle de diffusion plus grand en un trajet plus longue jusqu'au sol. Seulement les muons sont detectés sur sol car ils ont une durée de vie relativement longue. 
+   \begin{figure}[H]
     \center
-    \includegraphics[width=0.7\textwidth]{bilder/hadronischer_schauer.jpg}
-    \caption{Hadronischer Schauer}
+     \includegraphics[width=0.7\textwidth]{bilder/hadronischer_schauer.jpg}
+     \caption{Gerbe hadronique}
    \end{figure}
+    
+   Pour verifier que les muons arrivent au sol on peut faire un calcul. Un muon a une masse de repos $m_0=\unit[105,7]{\frac{MeV}{c^2}}$ et une durée de vie d'environ $\tau=\unit[2,2]{\mu s}$. La nombre des muons après un temps $t$ est donné part
+   \begin{eqnarray*}
+    n(t)=n_0\cdot\exp\left(-\frac{t}{\tau}\right)\\
+   \end{eqnarray*}
+   On considère un ensemble de muons produits à $l=\unit[10]{km}$ d'altitude et se dirigeant droite vers le sol. Un muon un une énergie cinétique moyenne $E_{cin}=\unit[2]{GeV}$.
+   \paragraph{Calcul non-relativiste}
+    Pour obtenie $t=l\cdot v$, il faut d'abord calculé la vitesse $v$ d'un muon.
+    \begin{eqnarray*}
+     E_{cin}=\frac{1}{2}m_0v^2\\
+     v=\sqrt{\frac{2E_{cin}}{m_0}}=6,15c
+    \end{eqnarray*}
+    Donc les muons seraient plus vite que la lumière, ce qui n'est pas possible après Einstein.
+
+   \paragraph{Calcul relativiste}
+   Il faut de nouveau calculé la vitesse, mais cette fois relativistiquement, car on sait qu'un muon doit avoir une vitesse près de la vitesse de lumière $c$. 
+   \begin{eqnarray*}
+    E_{ges}\stackrel{Einstein}{=}mc^2=m_0\gamma c^2&=E_0\gamma &=E_0+E_{cin}\\
+    \text{avec la masse relativiste }&m=m_0\gamma&\\
+    \gamma=\left(1-\frac{v^2}{c^2}\right)^{-0,5}&=\frac{E_0+E_{cin}}{E_0}&\\
+    \sqrt{1-\frac{v^2}{c^2}}&=\frac{E_0}{E_0+E_{cin}}&\\
+    \Rightarrow v&=\sqrt{1-\left(\frac{E_0}{E_0+E_{cin}}\right)^2}c&\approx 0,999c
+   \end{eqnarray*}
+   Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
+   Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
  \end{section}
+
   
  \begin{section}{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}

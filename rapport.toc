@@ -1,18 +1,20 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Le rayonnement cosmique}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Gerbes \IeC {\'e}lectroniques}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Hadronische Kaskade}{4}{subsection.1.2}
-\contentsline {section}{\numberline {2}Pr\IeC {\'e}liminaire}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Pr\IeC {\'e}paration des photomultiplicateurs}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}R\IeC {\'e}glage de la co\"{\i }ncidence}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {1.2}Cascade hadronique}{4}{subsection.1.2}
+\contentsline {paragraph}{Calcul non-relativiste}{5}{section*.2}
+\contentsline {paragraph}{Calcul relativiste}{6}{section*.3}
+\contentsline {section}{\numberline {2}Pr\IeC {\'e}liminaire}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Pr\IeC {\'e}paration des photomultiplicateurs}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}R\IeC {\'e}glage de la co\"{\i }ncidence}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}G\IeC {\'e}n\IeC {\'e}rer un signal logique}{6}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Comptage}{6}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{6}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2}Comptage}{7}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{7}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}Interpr\IeC {\'e}tation}{7}{subsubsection.2.2.4}
 \contentsline {subsection}{\numberline {2.3}Mesure en co\"{\i }ncidence}{7}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}D\IeC {\'e}tection}{7}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Bruit}{7}{subsubsection.2.3.2}
-\contentsline {section}{\numberline {3}Mesure}{7}{section.3}
-\contentsline {section}{\numberline {4}Conclusion}{7}{section.4}
-\contentsline {section}{\numberline {A}R\'ef\'erences}{7}{appendix.A}
+\contentsline {subsubsection}{\numberline {2.3.1}D\IeC {\'e}tection}{8}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Bruit}{8}{subsubsection.2.3.2}
+\contentsline {section}{\numberline {3}Mesure}{8}{section.3}
+\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}
+\contentsline {section}{\numberline {A}R\'ef\'erences}{8}{appendix.A}
 \contentsline {section}{\numberline {B}Table des figures}{8}{appendix.B}
