@@ -43,8 +43,6 @@
   \makeatother
  \end{center}
  \vfill
- 
- \nocite{poly}
 
  \begin{abstract}
   Le rayonnement cosmique qui bombarde en permanence l'atmosphère terrestre, consiste des particules de très haute énergie de l'origine solare, galactique ou intergalactique. Ces particules interagissent avec les particules de l'atmosphère et créent des particules secondaires de durée plus ou moins court. Au niveau de sol on peut détecter pour la plupart des muons.\\
@@ -157,11 +155,12 @@
    Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
    Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
  
+
  \section{Dispositif expérimental}
   Pour détecter les muons nous avons usé trois scintillateurs plastiques isolés de la lumière de \unit[100]{cm} de longeur, de \unit[20]{cm} de largeur et de \unit[0,8]{cm} d'épaisseur. Les trois scintillateurs sont posés dans des plans parallèles horizontaux de distance de \unit[20]{cm}. Chaque scintillateur est couplé à un photomultiplicateur (PMT) par l'intermédiaire de guides de lumière. 
 
-  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur.
-  
+  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur.  
+
  \section{Préliminaire}
   \subsection{Calculation du signal attendu d'un muon}
    Un muon a une énergie entre \unit[1]{GeV} et \unit[1000]{GeV} et pers dans le scintillateur plastique $\frac{\text{d}E}{\text{d}x}=-\unit[2]{\frac{MeV}{cm}}$. Dans le scintillateur de  $h=\unit[0,8]{cm}$ d'épaisseur un muon de basse énergie dispose donc sur la passage verticale
@@ -182,31 +181,58 @@
   
   \subsection{Préparation des photomultiplicateurs}
    \todo{ausführen}
-   Pour obtenir une bonne mesure les signaux emettés des trois photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
+   Pour obtenir une bonne mesure les signaux emettés des trois photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
     \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
    \end{center}
-  
+  \begin{tabular}{c|c|c|c}
+      &temps de descente [ns]	&temps de montée [ns]	&amplitude$_{max}$ [mV]\\
+    \hline
+PMT 1	&	4,4	&	12,8	&	27,8	\\
+PMT 2	&	5,6	&	8	&	29,2	\\
+PMT 3	&	6,0	&	27,6	&	82,4	\\
+	&	5,6	&	13,2	&	43,6	\\
+   \end{tabular}
+\newline
 
-  \subsection{Réglage de la co\"{\i}ncidence}
-   \todo{neue Daten einsetzen}
+ Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV} et pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Nous avons vu que les PMT ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un $\gamma$ de la même fa\c con.
+
+  \end{subsubsection}
+
    \subsubsection{Générer un signal logique}
-    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
+     Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
     \begin{figure}
      \centering
      \includegraphics[width=0.5\textwidth]{bilder/coinvrai.png}
      \caption{Co\"{\i}ncidence entre PMT 1 et PMT 2}
     \end{figure}
-
-   
   
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope, nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope nous avons relié les sorties des discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
    
    
    \subsubsection{Première mesure}
-    \todo{Daten}
-   
+
+ \begin{tabular}{c|c|c|c|c}
+   	&	PMT 1	&	PMT 2	&	PMT 3	&	Co\"{\i}ncidences 1 $\leftrightarrow$ 2	\\ \hline
+1	&	123587	&	10072	&	4081	&	519	\\
+2	&	123224	&	9877	&	4027	&	486	\\
+3	&	122707	&	10039	&	4081	&	547	\\
+4	&	122949	&	10059	&	4135	&	525	\\
+5	&	123761	&	10036	&	4178	&	555	\\ \hline
+moyenne M	&	123245,6	&	10016,6	&	4100,4	&	526,4	\\
+$\sqrt M$	&	351,06	&	100,08	&	64,03	&	22,94	\\
+écart type $\sigma$	&	436,10	&	79,42	&	57,79 &	27,07	\\ \hline
+	&	PMT 1	&	PMT 2	&	PMT 3	&	Co\"{\i}ncidences 1 $\leftrightarrow$ 3	\\ \hline
+1	&	124235	&	10032	&	4093	&	292	\\
+2	&	122680	&	9910	&	4156	&	307	\\
+3	&	123496	&	9940	&	4016	&	304	\\
+4	&	123054	&	9806	&	4019	&	282	\\
+5	&	122082	&	10011	&	4150	&	320	\\ \hline
+moyenne M	&	123109,4	&	9939,8	&	4086,8	&	301	\\
+$\sqrt M$	&	350,87	&	99,70	&	63,93	&	17,35	\\
+écart type $\sigma$	&	815,39	&	89,95	&	67,88	&	14,56	\\
+\end{tabular}
 
    \subsubsection{Interprétation} 
     Nous suposse que les dates sont decrit par la distribution de Poisson:
@@ -225,24 +251,70 @@
      \end{split}
     \end{equation*}
     L'écart type de nos dates est dans les limites de $\sqrt{\mu}$ ce qui dit que les nombres mesurés sont bien. Il y a des petites différences qui peut être expliqué par le fait que plus des désintégration ou plus de bruit étaient mesuré.
-   
-  
-
-  \subsection{Mesure en co\"{\i}ncidence}
-   \todo{alles einsetzen}
-   \subsubsection{Détection}
- 
-
    \subsubsection{Bruit}
+Comme l'installation de la manip est bon, il se pose maintenant la question comment
+savoir que les coïncidences mesurés ne sont pas des résultats des bruit. C'est pourquoi on retard un signal et compare \c ca avec un autre signal non retardé. \c Ca on fait en cause des bruits apparaissent aléatoirement et ne sont pas corrélés à les signals vrais, \c ca veut dire qu'en moyenne il y a le même nombre des co\"{i}ncidences entre le bruit d'une part et le signal retardé ou le signal non retardé  d'autre part. Au  contraire le vrais signals sont forcément corrélés donc on ne va plus messurer des co\"{i}ncidences entre les signal vrais.
+\begin{figure*}[h]
+   \begin{minipage}[H]{0.5\textwidth}
+        \centering
+	\includegraphics[width=0.5\textwidth]{bilder/retard.png}
+        \caption{signal et signal retardé }
+   \end{minipage}
+   \hfill
+   \begin{minipage}[H]{0.5\textwidth}
+        \centering
+       	\includegraphics[width=0.5\textwidth]{bilder/retard2.png}
+        \caption{signal et signal bruit retardé}
+   \end{minipage}
+   \end{figure*}
+   \newline
+
+  \begin{tabular}{c|c|c|c|c|c}
+Co\"{\i}ncidences:	&	1 $\leftrightarrow$ 2 retardé	&	2 $\leftrightarrow$ 3 retardé	&	3 $\leftrightarrow$ 2 retardé	&	3 $\leftrightarrow$ 1 retardé	\\ \hline	
+
+temps:	\unit[10]{s} &	0	&	0	&	0	&	0	\\
+	&	0	&	0	&	0	&	0	\\
+	&	0	&	0	&	0	&	0	\\
+	&	0	&	0	&	0	&	0	\\ \hline
+temps: \unit[100]{s}	&	1	&	0	&	0	&	0	\\
+\end{tabular}
+\newline
+Les messures affichent qu' on peut néglige les co\"{i}ncidences fortunes.
  
 
 
  \section{Mesure}
+\begin{subsection}{Comptage avec deux photomultiplicateurs}
+  \begin{tabular}{c|c|c|c}
+Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	\\ \hline
+1	&	1750	&	1661	&	991	\\
+2	&	1783	&	1686	&	961	\\
+3	&	1758	&	1695	&	968	\\
+4	&	1822	&	1674	&	975	\\ \hline
+moyenne M	&	1778,25	&	1679	&	973,75	\\
+$\sqrt M$	&	42,17	&	40,98	&	31,20	\\
+écart type $\sigma$	&	32,38	&	14,76	&	12,84	\\
+\end{tabular}
+\end{subsection}
+\begin{subsection}{Comptage avec les trois photomultiplicateurs}
+\begin{tabular}{c|c|c|c|c}
+Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	 2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	&	 $\leftrightarrow$ 2 $\leftrightarrow$ 3	\\ \hline
+temps: 100 s	&	1622	&	1488	&	843	&	813	\\
+	&	1598	&	1552	&	871	&	834	\\
+	&	1622	&	1542	&	893	&	864	\\
+	&	1633	&	1594	&	910	&	883	\\
+	&	1657	&	1562	&	909	&	867	\\ \hline
+moyenne M	&	1627,5	&	1562,5	&	895,75	&	862,00	\\
+$\sqrt M$	&	40,34	&	39,53	&	29,93	&	29,36	\\
+écart type $\sigma$	&	24,50	&	22,53	&	18,25	&	20,45	\\ \hline
+temps: 1000s	&	16506	&	15846	&	9054	&	8770	\\
+\end{tabular}
+\end{subsection}
+ 
 
-  
 
  \section{Calculation du flux absolu de muons}
-  \subsection{Equations} 
+  \subsection{Equations}
   
   \subsection{Monte Carlo}
    Nous avons utilisé le logiciel \texttt{Calcul de l'acceptance du détecteur} pour obtenir les efficacités géometrique $\epsilon_{12}^{geo},\epsilon_{13}^{geo}, \epsilon_{23}^{geo}\text{ et }\epsilon_{123}^{geo}$. On constate que p$\epsilon_{13}^{geo}=\epsilon_{123}^{geo}$ car un photon, qui passe le sintillateur 1 et 3, doit passer le scintillateur 2 qui se trouve au milieu. En plus c'est vrai $\epsilon_{12}^{geo}=\epsilon_{23}^{geo}$ parce que les scintillateurs ont la même distance.
@@ -253,12 +325,13 @@
 
    \subsubsection{Flux cosinus carré}
     $f(\theta)=cos^2(\theta)$
+  
+ 
 
 
  \section{Conclusion}
-  
- 
- 
+
+
  \begin{appendix}
   \bibliographystyle{unsrt}
   \bibliography{literatur}  

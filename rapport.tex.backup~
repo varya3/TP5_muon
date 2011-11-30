@@ -201,7 +201,7 @@
    
   
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope, nous avons relié les sorties des discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope, nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
    
    
    \subsubsection{Première mesure}
