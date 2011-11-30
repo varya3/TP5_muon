@@ -9,17 +9,18 @@
 \contentsline {subsection}{\numberline {2.2}R\IeC {\'e}glage de la co\"{\i }ncidence}{7}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}G\IeC {\'e}n\IeC {\'e}rer un signal logique}{7}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Comptage}{7}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{7}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{8}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}Interpr\IeC {\'e}tation}{8}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}Bruit}{8}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5}Bruit}{9}{subsubsection.2.2.5}
 \contentsline {section}{\numberline {3}Mesure}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Comptage avec deux photomultiplicateurs}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Comptage avec les trois photomultiplicateurs}{9}{subsection.3.2}
-\contentsline {section}{\numberline {4}Calculation du flux absolu de muons}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Equations}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Monte Carlo}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {3.2}Comptage avec les trois photomultiplicateurs}{10}{subsection.3.2}
+\contentsline {section}{\numberline {4}Calculation du flux absolu de muons}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Equations}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Monte Carlo}{10}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}R\IeC {\'e}sultat}{10}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Flux uniforme}{10}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Flux cosinus carr\IeC {\'e}}{10}{subsubsection.4.3.2}
-\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}
-\contentsline {section}{\numberline {A}Table des figures}{10}{appendix.A}
+\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}
+\contentsline {section}{\numberline {A}R\'ef\'erences}{11}{appendix.A}
+\contentsline {section}{\numberline {B}Table des figures}{11}{appendix.B}

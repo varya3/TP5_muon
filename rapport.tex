@@ -159,8 +159,7 @@
   
  \begin{section}{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}
-   \todo{ausführen}
-   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
+   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
     \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
    \end{center}
@@ -174,19 +173,23 @@ PMT 3	&	6,0	&	27,6	&	82,4	\\
    \end{tabular}
 \newline
 
- Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV} et pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Nous avons vu que les PMT ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un $\gamma$ de la même fa\c con.
-
+ Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV}, pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Ces seuils étaient les plus basse que nous pouvions mettre. La mesure donnait des seuils de \unit[15]{mV} pour les trois PMTs. Nous avons vu que les PMTs ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un photon de la même fa\c con.
   \end{subsubsection}
 
   \subsection{Réglage de la co\"{\i}ncidence}
-   \todo{neue Daten einsetzen}\\
 
    \subsubsection{Générer un signal logique}
-    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé deux discriminateurs pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux des deux PMT sont observés à l'oscilloscope aous l'aspect s'ils sont en co\"{\i}ncidence.
+      Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
+    \begin{figure}
+     \centering
+     \includegraphics[width=0.5\textwidth]{bilder/coinvrai.png}
+     \caption{Co\"{\i}ncidence entre PMT 1 et PMT 2}
+    \end{figure}
+  
    
   
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[10]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[30]{s} a montré que les signaux sont comptés.
    
    
    \subsubsection{Première mesure}
@@ -213,7 +216,7 @@ $\sqrt M$	&	350,87	&	99,70	&	63,93	&	17,35	\\
 \end{tabular}
 
    \subsubsection{Interprétation} 
-    Nous suposse que les dates sont decrit par la distribution de Poisson:
+    Nous suposse que les dates sont décrit par la distribution de Poisson:
     \begin{equation*}
      P_{\mu}(n)=\frac{\mu^n}{n!}\cdot e^{-{\mu}}
     \end{equation*}
