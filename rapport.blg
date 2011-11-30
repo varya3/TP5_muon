@@ -2,46 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: rapport.aux
 The style file: unsrt.bst
 Database file #1: literatur.bib
-Warning--I didn't find a database entry for "poly"
-You've used 2 entries,
+You've used 3 entries,
             1791 wiz_defined-function locations,
-            456 strings with 3754 characters,
-and the built_in function-call counts, 293 in all, are:
-= -- 26
-> -- 8
+            458 strings with 3793 characters,
+and the built_in function-call counts, 371 in all, are:
+= -- 32
+> -- 9
 < -- 0
-+ -- 4
++ -- 5
 - -- 2
-* -- 9
-:= -- 58
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 2
+* -- 10
+:= -- 66
+add.period$ -- 7
+call.type$ -- 3
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 16
-empty$ -- 31
+cite$ -- 3
+duplicate$ -- 22
+empty$ -- 43
 format.name$ -- 2
-if$ -- 63
+if$ -- 82
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 3
 missing$ -- 2
-newline$ -- 13
+newline$ -- 16
 num.names$ -- 2
-pop$ -- 8
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 4
+skip$ -- 8
 stack$ -- 0
 substring$ -- 0
-swap$ -- 1
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 2
-width$ -- 3
-write$ -- 24
-(There was 1 warning)
+width$ -- 4
+write$ -- 30

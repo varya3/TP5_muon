@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  27 NOV 2011 18:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  30 NOV 2011 11:37
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-201111271122)...disabled.
+runsystem(touch /tmp/w18-test-20111130697)...disabled.
 
-runsystem(rm -f /tmp/w18-test-201111271122)...disabled.
+runsystem(rm -f /tmp/w18-test-20111130697)...disabled.
 
 
 
@@ -1611,11 +1611,7 @@ LaTeX Info: Redefining \pageref on input line 22.
 \openout7 = `rapport.out'.
 
 \AtBeginShipoutBox=\box78
-
-
-LaTeX Warning: Citation `poly' undefined on input line 23.
-
-[1
+ [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1627,7 +1623,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 {/home/sabine/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 53.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 55.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./rapport.toc
@@ -1667,57 +1663,63 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 7.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 17.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 18.
+(scrartcl)            on input line 8.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 19.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 20.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 28.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 29.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 30.
 )
 \tf@toc=\write8
 \openout8 = `rapport.toc'.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 54.
+(Font)              scaled to size 8.27998pt on input line 56.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 54.
+(Font)              scaled to size 6.99199pt on input line 56.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 54.
+(Font)              scaled to size 8.27998pt on input line 56.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 54.
+(Font)              scaled to size 6.99199pt on input line 56.
  [2]
-<bilder/emschauer.jpg, id=105, 674.52pt x 537.50812pt>
+<bilder/emschauer.jpg, id=145, 674.52pt x 537.50812pt>
 File: bilder/emschauer.jpg Graphic file (type jpg)
 
 <use bilder/emschauer.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 [][]\T1/futs/m/n/10.95 Modèle d'une gerbe
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 86--87
+Underfull \hbox (badness 1735) in paragraph at lines 88--89
 \T1/futs/m/n/10.95 ton se-con-daire peut aussi gé-né-rer un pair
  []
 
-<bilder/03.jpg, id=107, 710.655pt x 573.64313pt>
+<bilder/03.jpg, id=147, 710.655pt x 573.64313pt>
 File: bilder/03.jpg Graphic file (type jpg)
  <use bilder/03.jpg> [3pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 
-      <./bilder/emschauer.jpg>]
-Overfull \hbox (9.52267pt too wide) in paragraph at lines 115--116
+l.101 
+       <./bilder/emschauer.jpg>]
+Overfull \hbox (9.52267pt too wide) in paragraph at lines 117--118
 []\T1/futs/m/n/10.95 Les muons sont frei-nés par io-ni-sa-tion est se dés-in-tè
 gre en po-si-tons, élec-trons, (anti)neutrinos
  []
 
-<bilder/hadronischer_schauer.jpg, id=120, 915.42pt x 989.19562pt>
+<bilder/hadronischer_schauer.jpg, id=160, 915.42pt x 989.19562pt>
 File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
 
 <use bilder/hadronischer_schauer.jpg> [4pdfTeX warning (ext4): destination with
@@ -1725,52 +1727,61 @@ File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.132 
+l.134 
        <./bilder/03.jpg>] [5pdfTeX warning (ext4): destination with the same id
 entifier (name{figure.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154    \end{eqnarray*}
+l.156    \end{eqnarray*}
                          <./bilder/hadronischer_schauer.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 162.
 
+LaTeX Warning: Command \' invalid in math mode on input line 173.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 177.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<bilder/pmtpuls.jpg, id=134, 323.2075pt x 190.7125pt>
+) [6]
+<bilder/pmtpuls.jpg, id=180, 323.2075pt x 190.7125pt>
 File: bilder/pmtpuls.jpg Graphic file (type jpg)
  <use bilder/pmtpuls.jpg>
-[6 <./bilder/pmtpuls.jpg>] (./rapport.bbl [7]) (./rapport.lof)
+<bilder/coinvrai.png, id=181, 262.9825pt x 221.82875pt>
+File: bilder/coinvrai.png Graphic file (type png)
+
+<use bilder/coinvrai.png> [7 <./bilder/pmtpuls.jpg>] [8pdfTeX warning (ext4): d
+estination with the same identifier (name{figure.4}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.231   \subsection
+                   {Mesure en co\"{\i}ncidence} <./bilder/coinvrai.png (PNG cop
+y)>] (./rapport.bbl [9]) (./rapport.lof)
 \tf@lof=\write9
 \openout9 = `rapport.lof'.
 
- [8]
-(./rapport.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [10] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 20271 strings out of 495028
- 316834 string characters out of 1181228
- 485031 words of memory out of 3000000
- 22844 multiletter control sequences out of 15000+50000
- 90108 words of font info for 102 fonts, out of 3000000 for 9000
+ 20303 strings out of 495028
+ 317284 string characters out of 1181228
+ 486947 words of memory out of 3000000
+ 22858 multiletter control sequences out of 15000+50000
+ 90422 words of font info for 103 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 60i,17n,69p,535b,958s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk>{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fonts/enc/dvip
-s/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mex.
-pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr
-/share/texmf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adob
-e/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.
-pfb>
-Output written on rapport.pdf (8 pages, 374886 bytes).
+ 60i,17n,73p,660b,958s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+tt1095.600pk> </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600
+pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fon
+ts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/f
+ourier-mex.pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mli
+t.pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts
+/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utop
+ia/putri8a.pfb>
+Output written on rapport.pdf (10 pages, 400453 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

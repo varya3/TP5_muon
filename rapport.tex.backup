@@ -43,6 +43,8 @@
   \makeatother
  \end{center}
  \vfill
+ 
+ \nocite{poly}
 
  \begin{abstract}
   Le rayonnement cosmique qui bombarde en permanence l'atmosphère terrestre, consiste des particules de très haute énergie de l'origine solare, galactique ou intergalactique. Ces particules interagissent avec les particules de l'atmosphère et créent des particules secondaires de durée plus ou moins court. Au niveau de sol on peut détecter pour la plupart des muons.\\
@@ -53,7 +55,7 @@
  \tableofcontents
 \newpage
 
- \begin{section}{Le rayonnement cosmique}
+ \section{Le rayonnement cosmique}
   Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
    \begin{figure}[htb]
     \centering
@@ -104,12 +106,12 @@
      \pi^{+} & \rightarrow & \mu^{+} + \nu_{\mu}\\
      \pi^{-} & \rightarrow & \mu^{-} + \overline{\nu}_{\mu}\\	
     \end{array}
-    \right\} \idx{Durée de vie moyenne \tau: } \unit[2,551\cdot10^{-8}]{s}
+    \right\} \idx{Durée de vie moyenne: } \tau=\unit[2,551\cdot10^{-8}]{s}
     \left.
     \begin{array}[]{lll}
      \pi^{0} & \rightarrow & 2\gamma	
     \end{array}
-    \right\} \idx{\tau: } \unit[8,4\cdot10^{-17}]{s}
+    \right\} \tau=\unit[8,4\cdot10^{-17}]{s}
    \end{equation*}
 
    Les muons sont freinés par ionisation est se désintègre en positons, électrons, (anti)neutrinos muoniques et (anti)neutrinos électroniques. 
@@ -120,7 +122,7 @@
      \mu^{+} & \rightarrow & \text{e}^{+} + \nu_{\text{e}} + \overline{\nu}_{\mu}\\
      \mu^{-} & \rightarrow & \text{e}^{-} + \overline{\nu}_{\text{e}} + \nu_{\mu}
     \end{array}
-    \right\} \text{Durée de vie moyenne } \unit[2,2001\cdot10^{-6}]{s}
+    \right\} \text{Durée de vie moyenne } \tau=\unit[2,2001\cdot10^{-6}]{s}
    \end{equation*}
 
    La plupart des particules secondaires est crées dans les couches supérieures de l'atmosphère par les hadrons. Les particules volent dans un disque vouté au sol. Cette voûte est causé par l'angle de diffusion différent des particules. .Les particules avec un angle de diffusion plus grand en un trajet plus longue jusqu'au sol. Seulement les muons sont detectés sur sol car ils ont une durée de vie relativement longue. 
@@ -136,26 +138,51 @@
    \end{eqnarray*}
    On considère un ensemble de muons produits à $l=\unit[10]{km}$ d'altitude et se dirigeant droite vers le sol. Un muon un une énergie cinétique moyenne $E_{cin}=\unit[2]{GeV}$.
    \paragraph{Calcul non-relativiste}
-    Pour obtenie $t=l\cdot v$, il faut d'abord calculé la vitesse $v$ du muon. 
-
+    Pour obtenie $t=l\cdot v$, il faut d'abord calculé la vitesse $v$ d'un muon.
+    \begin{eqnarray*}
+     E_{cin}=\frac{1}{2}m_0v^2\\
+     v=\sqrt{\frac{2E_{cin}}{m_0}}=6,15c
+    \end{eqnarray*}
+    Donc les muons seraient plus vite que la lumière, ce qui n'est pas possible après Einstein.
 
    \paragraph{Calcul relativiste}
-   Il faut de nouveau calculé la vitesse, mais cette fois relativistiquement, car on sait qu'un muon a une vitesse près de la vitesse de lumière $c$.
+   Il faut de nouveau calculé la vitesse, mais cette fois relativistiquement, car on sait qu'un muon doit avoir une vitesse près de la vitesse de lumière $c$. 
    \begin{eqnarray*}
-    E_{ges}\stackrel{Einstein}{mc^2}=m_0\gamma c^2=E_0\gamma =E_0+E_{cin}\\
-    \gamma=\left(1-\frac{v^2}{c^2}\right)^{-0,5}%\frac{E_0+E_{cin}}{E_0}\\
-    \sqrt{1-\frac{v^2}{c^2}}=\frac{E_0}{E_0+E_{cin}}\\
-    \Rightarrow v=\sqrt{1-\left(\frac{E_0}{E_0+E_{cin}}\right)^2}c\approx 0,999c
+    E_{ges}\stackrel{Einstein}{=}mc^2=m_0\gamma c^2&=E_0\gamma &=E_0+E_{cin}\\
+    \text{avec la masse relativiste }&m=m_0\gamma&\\
+    \gamma=\left(1-\frac{v^2}{c^2}\right)^{-0,5}&=\frac{E_0+E_{cin}}{E_0}&\\
+    \sqrt{1-\frac{v^2}{c^2}}&=\frac{E_0}{E_0+E_{cin}}&\\
+    \Rightarrow v&=\sqrt{1-\left(\frac{E_0}{E_0+E_{cin}}\right)^2}c&\approx 0,999c
    \end{eqnarray*}
    Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
    Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
- \end{section}
+ 
+ \section{Dispositif expérimental}
+  Pour détecter les muons nous avons usé trois scintillateurs plastiques isolés de la lumière de \unit[100]{cm} de longeur, de \unit[20]{cm} de largeur et de \unit[0,8]{cm} d'épaisseur. Les trois scintillateurs sont posés dans des plans parallèles horizontaux de distance de \unit[20]{cm}. Chaque scintillateur est couplé à un photomultiplicateur (PMT) par l'intermédiaire de guides de lumière. 
+
+  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur.
+  
+ \section{Préliminaire}
+  \subsection{Calculation du signal attendu d'un muon}
+   Un muon a une énergie entre \unit[1]{GeV} et \unit[1000]{GeV} et pers dans le scintillateur plastique $\frac{\text{d}E}{\text{d}x}=-\unit[2]{\frac{MeV}{cm}}$. Dans le scintillateur de  $h=\unit[0,8]{cm}$ d'épaisseur un muon de basse énergie dispose donc sur la passage verticale
+  \begin{equation*}
+   E_{dis}=h\cdot\frac{\text{d}E}{\text{d}x}=\unit[-1,6]{MeV}
+  \end{equation*}
+  La production d'UV dans le plastique est de $\unit[10000]{\frac{photon}{MeV}}$, alors environ 16000 photons sont produit donc environ $\epsilon=\unit[20]{\%}$ sont collectés par le photomultiplicateur. La possibilité qu'un photon produit un photonélectron par l'effet photoélectrique est $\epsilon_q\approx\unit[20]{\%}$ et avec le gain du PMT $G=10^6$ la nombre des électrons est
+  \begin{equation}
+   n_{électrons}=16000\cdot\epsilon\cdot\epsilon_q\cdot G=64\cdot10^7
+  \end{equation}
+  Le gain dépend de la nombre de dynodes dans le PMT et est la facteur de la multiplication d'un photélectron. Une anode collecte ces électrons et produit un courrant électrique qui sort de PMT. Avec une impédance on peut ensuite mesurer la tension.
+
+  \todo{Rechnung beendbar?}
+
+  A priori il est impossible de faire une différence entre un signal de la passage d'un muon et de bruit de la chaîne de mesure, car ce bruit peut être lier à la passage du muon. Par exemple quand photon ne produit de photoélectron qu'à la deuxième dynode donc ce signal est mesurer avant le signal de la passage du muon. 
+
 
   
- \begin{section}{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}
    \todo{ausführen}
-   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
+   Pour obtenir une bonne mesure les signaux emettés des trois photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
     \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
    \end{center}
@@ -164,11 +191,17 @@
   \subsection{Réglage de la co\"{\i}ncidence}
    \todo{neue Daten einsetzen}
    \subsubsection{Générer un signal logique}
-    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé deux discriminateurs pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux des deux PMT sont observés à l'oscilloscope aous l'aspect s'ils sont en co\"{\i}ncidence.
+    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
+    \begin{figure}
+     \centering
+     \includegraphics[width=0.5\textwidth]{bilder/coinvrai.png}
+     \caption{Co\"{\i}ncidence entre PMT 1 et PMT 2}
+    \end{figure}
+
    
   
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[10]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope, nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
    
    
    \subsubsection{Première mesure}
@@ -201,17 +234,23 @@
  
 
    \subsubsection{Bruit}
- \end{section}
+ 
 
 
- \begin{section}{Mesure}
+ \section{Mesure}
+
+ \section{Monte Carlo}
+ Nous avons utilisé le logiciel \texttt{Calcul de l'acceptance du détecteur}
   
- \end{section}
 
-
- \begin{section}{Conclusion}
+ \section{Calculation du flux absolu de muons}
   
- \end{section}
+ 
+
+
+ \section{Conclusion}
+  
+ 
  
  \begin{appendix}
   \bibliographystyle{unsrt}

@@ -43,6 +43,8 @@
   \makeatother
  \end{center}
  \vfill
+ 
+ \nocite{poly}
 
  \begin{abstract}
   Le rayonnement cosmique qui bombarde en permanence l'atmosphère terrestre, consiste des particules de très haute énergie de l'origine solare, galactique ou intergalactique. Ces particules interagissent avec les particules de l'atmosphère et créent des particules secondaires de durée plus ou moins court. Au niveau de sol on peut détecter pour la plupart des muons.\\
@@ -53,7 +55,7 @@
  \tableofcontents
 \newpage
 
- \begin{section}{Le rayonnement cosmique}
+ \section{Le rayonnement cosmique}
   Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
    \begin{figure}[htb]
     \centering
@@ -154,13 +156,33 @@
    \end{eqnarray*}
    Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
    Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
- \end{section}
+ 
+ \section{Dispositif expérimental}
+  Pour détecter les muons nous avons usé trois scintillateurs plastiques isolés de la lumière de \unit[100]{cm} de longeur, de \unit[20]{cm} de largeur et de \unit[0,8]{cm} d'épaisseur. Les trois scintillateurs sont posés dans des plans parallèles horizontaux de distance de \unit[20]{cm}. Chaque scintillateur est couplé à un photomultiplicateur (PMT) par l'intermédiaire de guides de lumière. 
+
+  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur.
+  
+ \section{Préliminaire}
+  \subsection{Calculation du signal attendu d'un muon}
+   Un muon a une énergie entre \unit[1]{GeV} et \unit[1000]{GeV} et pers dans le scintillateur plastique $\frac{\text{d}E}{\text{d}x}=-\unit[2]{\frac{MeV}{cm}}$. Dans le scintillateur de  $h=\unit[0,8]{cm}$ d'épaisseur un muon de basse énergie dispose donc sur la passage verticale
+  \begin{equation*}
+   E_{dis}=h\cdot\frac{\text{d}E}{\text{d}x}=\unit[-1,6]{MeV}
+  \end{equation*}
+  La production d'UV dans le plastique est de $\unit[10000]{\frac{photon}{MeV}}$, alors environ 16000 photons sont produit donc environ $\epsilon=\unit[20]{\%}$ sont collectés par le photomultiplicateur. La possibilité qu'un photon produit un photonélectron par l'effet photoélectrique est $\epsilon_q\approx\unit[20]{\%}$ et avec le gain du PMT $G=10^6$ la nombre des électrons est
+  \begin{equation}
+   n_{électrons}=16000\cdot\epsilon\cdot\epsilon_q\cdot G=64\cdot10^7
+  \end{equation}
+  Le gain dépend de la nombre de dynodes dans le PMT et est la facteur de la multiplication d'un photélectron. Une anode collecte ces électrons et produit un courrant électrique qui sort de PMT. Avec une impédance on peut ensuite mesurer la tension.
+
+  \todo{Rechnung beendbar?}
+
+  A priori il est impossible de faire une différence entre un signal de la passage d'un muon et de bruit de la chaîne de mesure, car ce bruit peut être lier à la passage du muon. Par exemple quand photon ne produit de photoélectron qu'à la deuxième dynode donc ce signal est mesurer avant le signal de la passage du muon. 
+
 
   
- \begin{section}{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}
    \todo{ausführen}
-   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
+   Pour obtenir une bonne mesure les signaux emettés des trois photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon $\gamma$. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
     \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
    \end{center}
@@ -169,11 +191,17 @@
   \subsection{Réglage de la co\"{\i}ncidence}
    \todo{neue Daten einsetzen}
    \subsubsection{Générer un signal logique}
-    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé deux discriminateurs pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux des deux PMT sont observés à l'oscilloscope aous l'aspect s'ils sont en co\"{\i}ncidence.
+    Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
+    \begin{figure}
+     \centering
+     \includegraphics[width=0.5\textwidth]{bilder/coinvrai.png}
+     \caption{Co\"{\i}ncidence entre PMT 1 et PMT 2}
+    \end{figure}
+
    
   
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[10]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope, nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[?]{s} a montré que les signaux sont comptés.
    
    
    \subsubsection{Première mesure}
@@ -206,17 +234,33 @@
  
 
    \subsubsection{Bruit}
- \end{section}
+ 
 
 
- \begin{section}{Mesure}
+ \section{Mesure}
+
   
- \end{section}
 
-
- \begin{section}{Conclusion}
+ \section{Calculation du flux absolu de muons}
+  \subsection{Equations} 
   
- \end{section}
+  \subsection{Les efficacités géométriques}
+   Nous avons utilisé le logiciel \texttt{Calcul de l'acceptance du détecteur} pour obtenir les efficacités géometrique $\epsilon_{12}^{geo},\epsilon_{13}^{geo}, \epsilon_{23}^{geo}\text{ et }\epsilon_{123}^{geo}$. On constate que p$\epsilon_{13}^{geo}=\epsilon_{123}^{geo}$ car un photon, qui passe le sintillateur 1 et 3, doit passer le scintillateur 2 qui se trouve au milieu. En plus c'est vrai $\epsilon_{12}^{geo}=\epsilon_{23}^{geo}$ parce que les scintillateurs ont la même distance. Le logiciel use la méthode Monte-Carlo pour simuler des muons traversant les scintillateurs pour une géometrie de flux donné.
+   \paragraph{Résultat flux uniforme}
+
+   \paragraph{Résultat flux cosinus carré}
+ 
+  \subsection{Résultat}
+   \subsubsection{Flux uniforme}
+    $f(\theta)=1$
+
+   \subsubsection{Flux cosinus carré}
+    $f(\theta)=cos^2(\theta)$
+
+
+ \section{Conclusion}
+  
+ 
  
  \begin{appendix}
   \bibliographystyle{unsrt}

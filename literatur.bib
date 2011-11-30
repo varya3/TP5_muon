@@ -1,199 +1,219 @@
- % Diese Datei enthält die BibTeX-Literaturliste für unsere ProPra-Versuche.
- % Über \cite{<+erstes Wort in den Klammern+>}, z.\,B. \cite{gerthsen} in der LaTeX-Datei wird
- % ein Literaturverweis angelegt, der im Literaturverzeichnis aufgeführt wird.
+\% Diese Datei enth{\"a}lt die BibTeX-Literaturliste f{\"u}r unsere ProPra-Versuche.
 
- % Zum Bauen eines Dokuments mit BibTeX lässt man das Dokument wie üblich von pdfLaTeX o.\,ä.
- % übersetzen, führt dann den Befehl
- %   bibtex TEX-DATEINAME_OHNE_ENDUNG
- % aus, und baut das Dokument danach noch einmal normal. Dann fügt TeX die Literaturverweise
- % korrekt ein.
- %
- % Übersicht zu BibTeX: http://www.mario-konrad.ch/index.php?page=10354
+\% {\"U}ber \cite{<+erstes Wort in den Klammern+>}, z.\,B. \cite{gerthsen} in der LaTeX-Datei wird
 
-@book{TODO,
-	author="Autor?",
-	title="Nachzutragendes Zitat",
-}
+\% ein Literaturverweis angelegt, der im Literaturverzeichnis aufgef{\"u}hrt wird.
 
-@book{gerthsen,
-	author="Gerthsen; Vogel",
-      	title="Physik",
-	publisher="Springer-Lehrbuch",
-	year="1993",
-}
+\% Zum Bauen eines Dokuments mit BibTeX l{\"a}sst man das Dokument wie {\"u}blich von pdfLaTeX o.\,{\"a}.
 
-@book{elsner,
-	author="Elsner, Norbert",
-	title="Grundlagen der technischen Thermodynamik",
-	publisher="Berlin : Akademie-Verlag",
-	year="1973",
+\% {\"u}bersetzen, f{\"u}hrt dann den Befehl
+
+\%   bibtex TEX-DATEINAME\_OHNE\_ENDUNG
+
+\% aus, und baut das Dokument danach noch einmal normal. Dann f{\"u}gt TeX die Literaturverweise
+
+\% korrekt ein.
+
+\%
+
+\% {\"U}bersicht zu BibTeX: http://www.mario-konrad.ch/index.php?page=10354
+
+@Booklet{ poly,
+	title = "Livret des {TP} nucl{\'e}aires",
+	year = "2011"
 }
 
-@book{hiecke,
-	author="Hiecke; Schubert",
-	title="Verdunstungsvorgänge -- Theorie und technische Anwendung",
-	publisher="VEB Deutscher Verlag für Grundstoffindustrie",
-	year="1976",
+@Book{ TODO,
+	author = "Autor?",
+	title = "Nachzutragendes Zitat"
 }
 
-% aktualisiert 17.10.2010
-@book{waermekapazitaet_schweizerfn,
-	author="Schweizer, Anton",
-	title="Spezifische Wärmekapazität von Mauerwerkstoffen",
-	year="2010",
-	publisher="\url{http://www.schweizer-fn.de/stoff/wkapazitaet/v2_wkapazitaet_baustoffe.htm}",
-	url="http://www.schweizer-fn.de/stoff/wkapazitaet/v2_wkapazitaet_baustoffe.htm",
+@Book{ gerthsen,
+	author = "Gerthsen; Vogel",
+	title = "Physik",
+	publisher = "Springer-Lehrbuch",
+	year = "1993"
 }
 
-@book{feynman,
-	author="Feynman, Richard P.",
-	title="Mechanik, Strahlung, Wärme",
-	year="2006",
-	publisher="Oldenbourg Wissenschaftsverlag GmbH",
-	edition="5. verbesserte",
+@Book{ elsner,
+	author = "Norbert Elsner",
+	title = "Grundlagen der technischen Thermodynamik",
+	publisher = "Berlin : Akademie-Verlag",
+	year = "1973"
 }
 
-@book{roesler,
-	author="Rösler; Harders; Bäker",
-	title="Mechanisches Verhalten der Werkstoffe",
-	publisher="Teubner",
-	year="2006",
+@Book{ hiecke,
+	author = "Hiecke; Schubert",
+	title = {Verdunstungsvorg{\"a}nge -- Theorie und technische Anwendung},
+	publisher = {VEB Deutscher Verlag f{\"u}r Grundstoffindustrie},
+	year = "1976"
 }
 
-@article{jelly,
-	author="Jelly, J. V.",
-	title="The Atmospheric Cherenkov Technique in  Gamma-ray Astronomy: The Early Days",
-	journal="Philosophical Transactions of the Royal Society of London",
-	year="Jun. 30, 1981",
-}
-@article{porter,
-	author="J. White N. A. Porter and C. Long",
-	title="Observations  on  Čerenkov  radiation  from  the  night  sky",
-	publisher="University College, Dublin",
-	journal="Journal of Atmospheric and Terrestrial Physics",
-	year="1960",
+\% aktualisiert 17.10.2010
+
+@Book{ waermekapazitaet_schweizerfn,
+	author = "Anton Schweizer",
+	title = {Spezifische W{\"a}rmekapazit{\"a}t von Mauerwerkstoffen},
+	year = "2010",
+	publisher = "\url{http://www.schweizer-fn.de/stoff/wkapazitaet/v2_wkapazitaet_baustoffe.htm}",
+	url = "http://www.schweizer-fn.de/stoff/wkapazitaet/v2_wkapazitaet_baustoffe.htm"
 }
 
-@book{kleinknecht,
-	author="Konrad Kleinknecht",
-	title="Detektoren für Teilchenstrahlung",
-	edition="4",
-	publisher="Teubner",
-	year="2005",
+@Book{ feynman,
+	author = "Richard P. Feynman",
+	title = {Mechanik, Strahlung, W{\"a}rme},
+	year = "2006",
+	publisher = "Oldenbourg Wissenschaftsverlag GmbH",
+	edition = "5. verbesserte"
 }
 
-@book{longair,
-	author="Longair, Malcolm S.",
-	title="High Energy Astrophysics. Vol. 1: Particles, photons and their detection",
-	edition="2",
-	year="1992",
-	publisher="Cambridge University Press",
+@Book{ roesler,
+	author = {R{\"o}sler; Harders; B{\"a}ker},
+	title = "Mechanisches Verhalten der Werkstoffe",
+	publisher = "Teubner",
+	year = "2006"
 }
 
-@book{weinzierl,
-	author="Stefan Weinzierl",
-	title="Handbuch der Audiotechnik",
-	publisher="Springer",
-	year="2008",
+@Article{ jelly,
+	author = "J. V. Jelly",
+	title = "The Atmospheric Cherenkov Technique in Gamma-ray Astronomy: The Early Days",
+	journal = "Philosophical Transactions of the Royal Society of London",
+	year = "Jun. 30, 1981"
 }
 
-@book{mayerkuckuck,
-	author="Mayer-Kuckuck, Theo",
-	title="Atomphysik",
-	publisher="Teubner Physik",
-	year="1997",
+@Article{ porter,
+	author = "J. White N. A. Porter and C. Long",
+	title = "Observations on \v{C}erenkov radiation from the night sky",
+	publisher = "University College, Dublin",
+	journal = "Journal of Atmospheric and Terrestrial Physics",
+	year = "1960"
 }
 
-@book{hakenwolf,
-	author="Haken; Wolf",
-	title="Atom- und Quantenphysik",
-	publisher="Springer",
-	year="2004",
+@Book{ kleinknecht,
+	author = "Konrad Kleinknecht",
+	title = {Detektoren f{\"u}r Teilchenstrahlung},
+	edition = "4",
+	publisher = "Teubner",
+	year = "2005"
 }
 
-@book{demtroeder3,
-	author="Demtröder, Wolfgang",
-	title="Experimentalphysik 3",
-	publisher="Springer",
-	year="2005",
-}
-@book{demtroeder4,
-	author="Demtröder, Wolfgang",
-	title="Experimentalphysik 4",
-	publisher="Springer",
-	year="2002",
+@Book{ longair,
+	author = "Malcolm S. Longair",
+	title = "High Energy Astrophysics. Vol. 1: Particles, photons and their detection",
+	edition = "2",
+	year = "1992",
+	publisher = "Cambridge University Press"
 }
 
-@book{daqmanual,
-	author="Quarknet",
-	title="Handbuch zum Data Aquisition Board",
-	publisher="www18.i2u2.org/cosmic/library/upload/b/ba/6000CRMDUserManual.pdf",
-	year="2010",
-	url="www18.i2u2.org/cosmic/library/upload/b/ba/6000CRMDUserManual.pdf",
+@Book{ weinzierl,
+	author = "Stefan Weinzierl",
+	title = "Handbuch der Audiotechnik",
+	publisher = "Springer",
+	year = "2008"
 }
 
-@mastersthesis{zulassungsarbeit,
-	author="Friedrich Meingast",
-	title="Konzeption eines wissenschaftspropädeutischen Seminars zum Thema kosmische Strahlung",
-	year="2010",
-	school="Friedrich-Alexander-Universität Erlangen-Nürnberg",
+@Book{ mayerkuckuck,
+	author = "Theo Mayer-Kuckuck",
+	title = "Atomphysik",
+	publisher = "Teubner Physik",
+	year = "1997"
 }
 
-@mastersthesis{burak,
-	author="Dania Burak",
-	title="Nachweis kosmischer Myonen mittels Wasser-Cherenkov-Zähler",
-	year="2007",
-	school="Universität Karlsruhe",
-	url="www.physik.uni-karlsruhe.de/Studium/Lehramt/Staatsexamen_Myon.pdf"
+@Book{ hakenwolf,
+	author = "Haken; Wolf",
+	title = "Atom- und Quantenphysik",
+	publisher = "Springer",
+	year = "2004"
 }
 
-@misc{astroteilchen,
-	author="Astroteilchen-Gemeinschaft",
-	title="Astroteilchenphysik in Deutschland",
-	publisher="\url{http://www.astroteilchenphysik.de/topics/gamma/gamma.htm}",
-	url="http://www.astroteilchenphysik.de/topics/gamma/gamma.htm"
+@Book{ demtroeder3,
+	author = {Wolfgang Demtr{\"o}der},
+	title = "Experimentalphysik 3",
+	publisher = "Springer",
+	year = "2005"
 }
 
-@misc{pmtdaten,
-	author="Valvo inc. gmbh kg",
-	title="Datenblatt"
+@Book{ demtroeder4,
+	author = {Wolfgang Demtr{\"o}der},
+	title = "Experimentalphysik 4",
+	publisher = "Springer",
+	year = "2002"
 }
 
-@book{bronstein,
-	author="Bron\v{s}tein; Semendjajew",
-      	title="Taschenbuch der Mathematik",
-	publisher="Harri Deutsch",
-	year="2008",
+@Book{ daqmanual,
+	author = "Quarknet",
+	title = "Handbuch zum Data Aquisition Board",
+	publisher = "www18.i2u2.org/cosmic/library/upload/b/ba/6000CRMDUserManual.pdf",
+	year = "2010",
+	url = "www18.i2u2.org/cosmic/library/upload/b/ba/6000CRMDUserManual.pdf"
 }
 
-% aktualisiert 6.3.2011
-@book{caesium_spektrum,
-	author="NIST",
-	title="Strong Lines of Cesium",
-	year="2011",
-	publisher="\url{http://www.physics.nist.gov/PhysRefData/Handbook/Tables/cesiumtable2.htm}",
-	url="http://www.physics.nist.gov/PhysRefData/Handbook/Tables/cesiumtable2.htm",
+@MastersThesis{ zulassungsarbeit,
+	author = "Friedrich Meingast",
+	title = {Konzeption eines wissenschaftsprop{\"a}deutischen Seminars zum Thema kosmische Strahlung},
+	year = "2010",
+	school = {Friedrich-Alexander-Universit{\"a}t Erlangen-N{\"u}rnberg}
 }
 
-% aktualisiert 6.3.2011
-@book{natrium_spektrum,
-	author="NIST",
-	title="Strong Lines of Sodium",
-	year="2011",
-	publisher="\url{http://www.physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm}",
-	url="http://www.physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm",
-}
-@book{cambridgedata,
-	author="Cambridge University",
-	title="Cambridge Structural Database",
-	year="2011",
-	publisher="\url{http://www.ccdc.cam.ac.uk/products/csd/radii/}",
-	url="http://www.ccdc.cam.ac.uk/products/csd/radii/",
+@MastersThesis{ burak,
+	author = "Dania Burak",
+	title = {Nachweis kosmischer Myonen mittels Wasser-Cherenkov-Z{\"a}hler},
+	year = "2007",
+	school = {Universit{\"a}t Karlsruhe},
+	url = "www.physik.uni-karlsruhe.de/Studium/Lehramt/Staatsexamen_Myon.pdf"
 }
 
-@book{bschaefer1,
-	author="Bergmann; Schaefer",
-	title="Lehrbuch der Experimentalphysik: Mechanik, Relativität, Wärme",
-	publisher="de Gruyter",
-	year="1998",
+@Misc{ astroteilchen,
+	author = "Astroteilchen-Gemeinschaft",
+	title = "Astroteilchenphysik in Deutschland",
+	publisher = "\url{http://www.astroteilchenphysik.de/topics/gamma/gamma.htm}",
+	url = "http://www.astroteilchenphysik.de/topics/gamma/gamma.htm"
 }
+
+@Misc{ pmtdaten,
+	author = "Valvo inc. gmbh kg {inc. gmbh kg}",
+	title = "Datenblatt"
+}
+
+@Book{ bronstein,
+	author = "Bron\v{s}tein; Semendjajew",
+	title = "Taschenbuch der Mathematik",
+	publisher = "Harri Deutsch",
+	year = "2008"
+}
+
+\% aktualisiert 6.3.2011
+
+@Book{ caesium_spektrum,
+	author = "NIST",
+	title = "Strong Lines of Cesium",
+	year = "2011",
+	publisher = "\url{http://www.physics.nist.gov/PhysRefData/Handbook/Tables/cesiumtable2.htm}",
+	url = "http://www.physics.nist.gov/PhysRefData/Handbook/Tables/cesiumtable2.htm"
+}
+
+\% aktualisiert 6.3.2011
+
+@Book{ natrium_spektrum,
+	author = "NIST",
+	title = "Strong Lines of Sodium",
+	year = "2011",
+	publisher = "\url{http://www.physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm}",
+	url = "http://www.physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm"
+}
+
+@Book{ cambridgedata,
+	author = "Cambridge University",
+	title = "Cambridge Structural Database",
+	year = "2011",
+	publisher = "\url{http://www.ccdc.cam.ac.uk/products/csd/radii/}",
+	url = "http://www.ccdc.cam.ac.uk/products/csd/radii/"
+}
+
+@Book{ bschaefer1,
+	author = "Bergmann; Schaefer",
+	title = {Lehrbuch der Experimentalphysik: Mechanik, Relativit{\"a}t, W{\"a}rme},
+	publisher = "de Gruyter",
+	year = "1998"
+}
+
