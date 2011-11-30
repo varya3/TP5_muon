@@ -159,7 +159,7 @@
  \section{Dispositif expérimental}
   Pour détecter les muons nous avons usé trois scintillateurs plastiques isolés de la lumière de \unit[100]{cm} de longeur, de \unit[20]{cm} de largeur et de \unit[0,8]{cm} d'épaisseur. Les trois scintillateurs sont posés dans des plans parallèles horizontaux de distance de \unit[20]{cm}. Chaque scintillateur est couplé à un photomultiplicateur (PMT) par l'intermédiaire de guides de lumière. 
 
-  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur.  
+  Les signaux des photomultiplicateurs sont transmis à une échelle de comptage pour les premières mesures et après directement à l'ordinateur. Le scintillateur en haute et le PMT couplé ont la numéro 1, au milieu 2 et en bas 3.
 
  \section{Préliminaire}
   \subsection{Calculation du signal attendu d'un muon}
@@ -180,7 +180,6 @@
 
   
   \subsection{Préparation des photomultiplicateurs}
-   \todo{ausführen}
    Pour obtenir une bonne mesure les signaux emettés des trois photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
     \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
@@ -195,7 +194,7 @@ PMT 3	&	6,0	&	27,6	&	82,4	\\
    \end{tabular}
 \newline
 
- Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV} et pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Nous avons vu que les PMT ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un $\gamma$ de la même fa\c con.
+ Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV}, pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Ces seuils étaient les plus basse que nous pouvions mettre. La mesure donnait des seuils de \unit[15]{mV} pour les trois PMTs. Nous avons vu que les PMTs ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un photon de la même fa\c con.
 
 
 
@@ -251,9 +250,10 @@ $\sqrt M$	&	350,87	&	99,70	&	63,93	&	17,35	\\
      \end{split}
     \end{equation*}
     L'écart type de nos dates est dans les limites de $\sqrt{\mu}$ ce qui dit que les nombres mesurés sont bien. Il y a des petites différences qui peut être expliqué par le fait que plus des désintégration ou plus de bruit étaient mesuré.
+
    \subsubsection{Bruit}
 Comme l'installation de la manip est bon, il se pose maintenant la question comment
-savoir que les coïncidences mesurés ne sont pas des résultats des bruit. C'est pourquoi on retard un signal et compare \c ca avec un autre signal non retardé. \c Ca on fait en cause des bruits apparaissent aléatoirement et ne sont pas corrélés à les signals vrais, \c ca veut dire qu'en moyenne il y a le même nombre des co\"{i}ncidences entre le bruit d'une part et le signal retardé ou le signal non retardé  d'autre part. Au  contraire le vrais signals sont forcément corrélés donc on ne va plus messurer des co\"{i}ncidences entre les signal vrais.
+savoir que les coïncidences mesurés ne sont pas des résultats de bruit. C'est pourquoi on retard un signal et compare \c ca avec un autre signal non retardé. \c Ca on fait à cause des bruits aléatoires qui ne sont pas corrélés à les signals vrais, \c ca veut dire qu'il y a en moyenne  le même nombre des co\"{i}ncidences entre le bruit et le signal retardé ou non retardé. Au  contraire le vrais signaux sont forcément corrélés donc on ne va plus mesurer des co\"{i}ncidences entre les signaux vrais.
 \begin{figure*}[h]
    \begin{minipage}[H]{0.5\textwidth}
         \centering
@@ -279,7 +279,7 @@ temps:	\unit[10]{s} &	0	&	0	&	0	&	0	\\
 temps: \unit[100]{s}	&	1	&	0	&	0	&	0	\\
 \end{tabular}
 \newline
-Les messures affichent qu' on peut néglige les co\"{i}ncidences fortunes.
+Les mesures montre qu'on peut néglige les co\"{i}ncidences aléatoires. Seulement pendant la msure de \unit[100]{s} nous avons mesuré une fausse con\"{\i}ncidences, mais cela sur environ 1800 vraies con\"{\i}ncidences. 
  
 
 

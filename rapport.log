@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  30 NOV 2011 13:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  30 NOV 2011 14:16
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-20111130838)...disabled.
+runsystem(touch /tmp/w18-test-20111130856)...disabled.
 
-runsystem(rm -f /tmp/w18-test-20111130838)...disabled.
+runsystem(rm -f /tmp/w18-test-20111130856)...disabled.
 
 
 
@@ -1738,15 +1738,16 @@ l.154    \end{eqnarray*}
 
 LaTeX Warning: Command \' invalid in math mode on input line 172.
 
+[6]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 176.
 
-(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [6]
+)
 <bilder/pmtpuls.jpg, id=175, 323.2075pt x 190.7125pt>
 File: bilder/pmtpuls.jpg Graphic file (type jpg)
  <use bilder/pmtpuls.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
@@ -1759,7 +1760,7 @@ licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237    \subsubsection
+l.236    \subsubsection
                        {Interprétation} <./bilder/coinvrai.png (PNG copy)>]
 <bilder/retard.png, id=188, 569.87906pt x 385.44pt>
 File: bilder/retard.png Graphic file (type png)
@@ -1813,7 +1814,7 @@ t.pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts
 /type1/adobe/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utop
 ia/putri8a.pfb>
-Output written on rapport.pdf (12 pages, 429940 bytes).
+Output written on rapport.pdf (12 pages, 430086 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
