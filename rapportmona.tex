@@ -53,7 +53,7 @@
  \tableofcontents
 \newpage
 
- \section{Le rayonnement cosmique}
+ \begin{section}{Le rayonnement cosmique}
   Les gerbes atmosphèriques sont créées quand le rayonnement cosmique arrive à l'atmosphère terrestre et les particules de très haute énergie interagissent avec les particules de l'atmosphère. A partir d'une particule primaire se forme beaucoup des particules secondaires. Le rayonnement cosmique se compose comme suivant:
    \begin{figure}[htb]
     \centering
@@ -154,10 +154,10 @@
    \end{eqnarray*}
    Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
    Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
- 
+ \end{section}
 
   
- \section{Préliminaire}
+ \begin{section}{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}
    Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
    \begin{center}
@@ -174,7 +174,7 @@ PMT 3	&	6,0	&	27,6	&	82,4	\\
 \newline
 
  Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV}, pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Ces seuils étaient les plus basse que nous pouvions mettre. La mesure donnait des seuils de \unit[15]{mV} pour les trois PMTs. Nous avons vu que les PMTs ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un photon de la même fa\c con.
-  
+  \end{subsubsection}
 
   \subsection{Réglage de la co\"{\i}ncidence}
 
@@ -261,11 +261,11 @@ temps: \unit[100]{s}	&	1	&	0	&	0	&	0	\\
 \end{tabular}
 \newline
 Les messures affichent qu' on peut néglige les co\"{i}ncidences fortunes.
+ \end{section}
 
 
-
- \section{Mesure}
-\subsection{Comptage avec deux photomultiplicateurs}
+ \begin{section}{Mesure}
+\begin{subsection}{Comptage avec deux photomultiplicateurs}
   \begin{tabular}{c|c|c|c}
 Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	\\ \hline
 1	&	1750	&	1661	&	991	\\
@@ -276,8 +276,8 @@ moyenne M	&	1778,25	&	1679	&	973,75	\\
 $\sqrt M$	&	42,17	&	40,98	&	31,20	\\
 écart type $\sigma$	&	32,38	&	14,76	&	12,84	\\
 \end{tabular}
-
-\subsection{Comptage avec les trois photomultiplicateurs}
+\end{subsection}
+\begin{subsection}{Comptage avec les trois photomultiplicateurs}
 \begin{tabular}{c|c|c|c|c}
 Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	 2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	&	1 $\leftrightarrow$ 2 $\leftrightarrow$ 3	\\ \hline
 temps: 100 s	&	1622	&	1488	&	843	&	813	\\
@@ -290,8 +290,8 @@ $\sqrt M$	&	40,34	&	39,53	&	29,93	&	29,36	\\
 écart type $\sigma$	&	24,50	&	22,53	&	18,25	&	20,45	\\ \hline
 temps: 1000s	&	16506	&	15846	&	9054	&	8770	\\
 \end{tabular}
-
-
+\end{subsection}
+ \end{section}
  \section{Calculation du flux absolu de muons}
   \subsection{Equations} 
   Le flux $\Phi$ est défini comme le nombre moyen de muons incidents:\\
@@ -333,8 +333,6 @@ pour les trois détecteurs. Le terms $b_{12}$ et $b_{123}$ réprésentent le bru
 \begin{equation*}
 \epsilon_{3}^{det}=\frac{N_{123} \cdot \alpha_{12}}{\alpha_{123}\cdot N_{12}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{12}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{31}}
 \end{equation*}
-
-
   \subsection{Monte Carlo}
    Nous avons utilisé le logiciel \texttt{Calcul de l'acceptance du détecteur} pour obtenir les efficacités géometrique $\epsilon_{12}^{geo},\epsilon_{13}^{geo}, \epsilon_{23}^{geo}\text{ et }\epsilon_{123}^{geo}$. On constate que $\epsilon_{13}^{geo}=\epsilon_{123}^{geo}$ car un photon, qui passe le sintillateur 1 et 3, doit passer le scintillateur 2 qui se trouve au milieu. En plus c'est vrai $\epsilon_{12}^{geo}=\epsilon_{23}^{geo}$ parce que les scintillateurs ont la même distance.
 
@@ -388,9 +386,9 @@ avec:\\
 $T=\unit[1000]{s}$
 
 
- \section{Conclusion}
+ \begin{section}{Conclusion}
   
- 
+ \end{section}
  
  \begin{appendix}
   \bibliographystyle{unsrt}
