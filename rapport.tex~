@@ -366,13 +366,13 @@ $\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,66\cdot10^{-3}
   \subsection{Résultat}
    Le flux vertical de muons $\Phi_0$ est donné par:
    \begin{eqnarray*}
-    \Phi_0=\frac{N_{123}}{\alpha_1\cdot \epsilon_{123}^{geo}T\epsilon_{1}^{det}\epsilon_{2}^{det}\epsilon_{3}^{det}}=\frac{\left(\epsilon_{123}^{geo}\right)^2 \cdot N_{12}\cdot N_{23}\cdot N_{13}}{\alpha_1 \cdot \left(N_{123}\right)^2 \cdot \epsilon_{12}^{geo}\cdot \epsilon_{23}^{geo}\cdot \epsilon_{13}^{geo}}\\
+    \Phi_0=\frac{N_{123}}{\alpha_1\cdot \epsilon_{123}^{geo}T\epsilon_{1}^{det}\epsilon_{2}^{det}\epsilon_{3}^{det}}=\frac{\left(\epsilon_{123}^{geo}\right)^2 \cdot N_{12}\cdot N_{23}\cdot N_{13}}{\alpha_1 \cdot \left(N_{123}\right)^2 \cdot \epsilon_{12}^{geo}\cdot \epsilon_{23}^{geo}\cdot \epsilon_{13}^{geo}T}\\
     \text{avec }\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos\theta \sin\theta\text{d} \theta
    \end{eqnarray*}\\
    Le surface $S$ de détecteur est $S=\unit[1]{m}\cdot\unit[0,2]{m}=\unit[0,2]{m^2}$.\\
    Nous voulons calculer le flux absolu des muon pour deux différent hypothèse du flux des muons $f(\theta)$.
   
-  \todo{werte einsetzen, fehler berechnen...sorry bin zu müde etz...}
+  \todo{nachrechnen...}
    \subsubsection{Flux uniforme}
     On considère un flux uniforme de la forme $f(\theta)=1$. Donc on trouve
     \begin{equation*}
@@ -380,12 +380,12 @@ $\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,66\cdot10^{-3}
     \end{equation*}\\
     Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
     \begin{equation*}
-     \Phi_0=\unit[48651,66]{\frac{1}{m^2s\cdot sr}}
+     \Phi_0=\unit[48,65]{\frac{1}{m^2s\cdot sr}}
     \end{equation*}
     \paragraph{Incertitude}
     L'incertitude se calcule avec la formule $\Delta\Phi_0=\sqrt{\sum_1^n \left(\frac{\text{d }\Phi_0}{\text{d }x_n}\Delta x_n\right)^2}$ avec $x_n$ les valeurs avec une incertitude $\Delta x_n$. Car nous n'avons fait qu'une mesure de $T=\unit[1000]{s}$ nous prennons l'incertidude des mesures de $T=\unit[100]{s}$ avec un facteur $k=10$. \c Ca ne donne pas l'incertitude exact, mais une incertitude assez précise car le nombre des muons detectés se multiplie avec $k$.
     \begin{equation*}
-     \Delta\Phi=\pm \unit[5324,58]{\frac{1}{m^2s\cdot sr}}
+     \Delta\Phi=\pm \unit[5,325]{\frac{1}{m^2s\cdot sr}}
     \end{equation*}
 
     
@@ -397,7 +397,7 @@ avec:\\
 \end{equation*}\\
 Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
     \begin{equation*}
-     \Phi_0=\unit[47975,99\pm4488,55]{\frac{1}{m^2s\cdot sr}} 
+     \Phi_0=\unit[47,976\pm4,489]{\frac{1}{m^2s\cdot sr}} 
     \end{equation*}
 
    
@@ -407,10 +407,12 @@ Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
 
    \subsection{Efficacité des détecteurs}
     \todo{berechnen}
+    \subsubsection{Flux uniforme}
+
+    \subsubsection{Flux cosinus carré} 
 
 
-
-
+    
 
  \section{Conclusion}
   Nous avons appris comment une mesure des muons peut être realisé et nous avons vu qu'on peut très bien detécter des muons au niveau de sol. En plus nous avons calibré le dispositif et nous avons remarqué les difficulté. \\

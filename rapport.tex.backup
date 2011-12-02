@@ -372,7 +372,7 @@ $\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,66\cdot10^{-3}
    Le surface $S$ de détecteur est $S=\unit[1]{m}\cdot\unit[0,2]{m}=\unit[0,2]{m^2}$.\\
    Nous voulons calculer le flux absolu des muon pour deux différent hypothèse du flux des muons $f(\theta)$.
   
-  \todo{werte einsetzen, fehler berechnen...sorry bin zu müde etz...}
+  \todo{nachrechnen...}
    \subsubsection{Flux uniforme}
     On considère un flux uniforme de la forme $f(\theta)=1$. Donc on trouve
     \begin{equation*}
@@ -399,14 +399,22 @@ Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
     \begin{equation*}
      \Phi_0=\unit[47975,99\pm4488,55]{\frac{1}{m^2s\cdot sr}} 
     \end{equation*}
- 
+
+   
+   \subsection{Comparaison}
+    Le flux vertical de rayonnement cosmique au niveau de la mer est $\Phi_0\approx\unit[90]{\frac{1}{m^2s\cdot sr}} $, cette valeur augmente avec l'altitude car le trajet en air est plus court, donc moins particule ont déjà réagi. \todo{Problem: unsere Werte (die ich ausgerechnet habe...) passen nicht!!!, Frage: oder bleibt er gleich, wweil Muonen kaum reagieren?}.\\
+    Nos valeurs pour les deux hypothèse sont absolument pas compatible avec le flux attendu.
+
+   \subsection{Efficacité des détecteurs}
+    \todo{berechnen}
 
 
 
 
 
  \section{Conclusion}
-  
+  Nous avons appris comment une mesure des muons peut être realisé et nous avons vu qu'on peut très bien detécter des muons au niveau de sol. En plus nous avons calibré le dispositif et nous avons remarqué les difficulté. \\
+  A la fin nous avons fait des calculs théorétique pour verifier udes hypothèse et nous avons vu que le flux cosmique suit à peu près $f(x)=\cos^2(\Theta)$.
  
  
  \begin{appendix}
