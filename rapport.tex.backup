@@ -91,9 +91,9 @@
    Les protons de très haute énergie ou les noyeaux lourds, appelés les hadrons, du rayonnement cosmique interagissent dans les couches supérieures de l'atmosphère avec les molécules de l'air. Pendant ce processus des particules secondaires en plupart des pions $\pi^+$, $\pi^-$ ou $\pi^0$ sont crées. 
    \begin{figure}[htb]
     \center
-    \includegraphics[width=0.6\textwidth]{bilder/03.jpg}
-    \caption{Schéma de la réaction d'un proton de très haute énergie avec un noyeau de l'atmosphère}
-    \cite[S.~133]{longair}
+    \includegraphics[width=0.5\textwidth]{bilder/03.jpg}
+    \caption{Schéma de la réaction d'un proton de très haute énergie avec un noyeau de l'atmosphère \cite[S.~133]{longair}}
+    
     \label{fig:preaktion}
    \end{figure}
 
@@ -126,43 +126,46 @@
    La plupart des particules secondaires est crées dans les couches supérieures de l'atmosphère par les hadrons. Les particules volent dans un disque vouté au sol. Cette voûte est causé par l'angle de diffusion différent des particules. .Les particules avec un angle de diffusion plus grand en un trajet plus longue jusqu'au sol. Seulement les muons sont detectés sur sol car ils ont une durée de vie relativement longue. 
    \begin{figure}[H]
     \center
-     \includegraphics[width=0.7\textwidth]{bilder/hadronischer_schauer.jpg}
+     \includegraphics[width=0.5\textwidth]{bilder/hadronischer_schauer.jpg}
      \caption{Gerbe hadronique}
    \end{figure}
     
-   Pour verifier que les muons arrivent au sol on peut faire un calcul. Un muon a une masse de repos $m_0=\unit[105,7]{\frac{MeV}{c^2}}$ et une durée de vie d'environ $\tau=\unit[2,2]{\mu s}$. La nombre des muons après un temps $t$ est donné part
-   \begin{eqnarray*}
-    n(t)=n_0\cdot\exp\left(-\frac{t}{\tau}\right)\\
-   \end{eqnarray*}
-   On considère un ensemble de muons produits à $l=\unit[10]{km}$ d'altitude et se dirigeant droite vers le sol. Un muon un une énergie cinétique moyenne $E_{cin}=\unit[2]{GeV}$.
+   Pour verifier que les muons arrivent au sol on peut faire un calcul. Un muon a une masse de repos $m_0=\unit[105,7]{\frac{MeV}{c^2}}$ et une durée de vie d'environ $\tau=\unit[2,2]{\mu s}$. La nombre des muons après un temps $t$ est donné par $
+    n(t)=n_0\cdot\exp\left(-\frac{t}{\tau}\right)$.\\
+   On considère un ensemble de muons produits à $l=\unit[10]{km}$ d'altitude et se dirigeant droite vers le sol. Un muon a une énergie cinétique moyenne $E_{cin}=\unit[2]{GeV}$.
    \paragraph{Calcul non-relativiste}
-    Pour obtenie $t=l\cdot v$, il faut d'abord calculé la vitesse $v$ d'un muon.
+    Pour obtenir $t=l\cdot v$, il faut d'abord calculé la vitesse $v$ d'un muon.
     \begin{eqnarray*}
-     E_{cin}=\frac{1}{2}m_0v^2\\
-     v=\sqrt{\frac{2E_{cin}}{m_0}}=6,15c
+     E_{cin}=\frac{1}{2}m_0v^2\Rightarrow v=\sqrt{\frac{2E_{cin}}{m_0}}=6,15c
     \end{eqnarray*}
     Donc les muons seraient plus vite que la lumière, ce qui n'est pas possible après Einstein.
 
    \paragraph{Calcul relativiste}
-   Il faut de nouveau calculé la vitesse, mais cette fois relativistiquement, car on sait qu'un muon doit avoir une vitesse près de la vitesse de lumière $c$. 
+   Il faut de nouveau calculé la vitesse, mais cette fois relativistiquement, car on sait qu'un muon doit avoir une vitesse près de la vitesse de lumière $c$. On use la masse relativiste $m=m_0\gamma$
    \begin{eqnarray*}
     E_{ges}\stackrel{Einstein}{=}mc^2=m_0\gamma c^2&=E_0\gamma &=E_0+E_{cin}\\
-    \text{avec la masse relativiste }&m=m_0\gamma&\\
     \gamma=\left(1-\frac{v^2}{c^2}\right)^{-0,5}&=\frac{E_0+E_{cin}}{E_0}&\\
-    \sqrt{1-\frac{v^2}{c^2}}&=\frac{E_0}{E_0+E_{cin}}&\\
+    %\sqrt{1-\frac{v^2}{c^2}}&=\frac{E_0}{E_0+E_{cin}}&\\
     \Rightarrow v&=\sqrt{1-\left(\frac{E_0}{E_0+E_{cin}}\right)^2}c&\approx 0,999c
    \end{eqnarray*}
-   Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$.\\
-   Alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$
+   Pour le temps de vol on trouve $t=l\cdot v=\unit[33,4]{ns}$, alors $\frac{n(t)}{n_0}=\unit[98,5]{\%}$. Nous avons ainsi trouvé que la plupart des muons arrivent au sol. \enlargethispage{0.5cm}
  
 
   
  \section{Préliminaire}
   \subsection{Préparation des photomultiplicateurs}
-   Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image suivant montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.  
-   \begin{center}
-    \includegraphics[width=0.5\textwidth]{bilder/pmtpuls.jpg}
-   \end{center}
+   
+   \begin{minipage}{0.7\textwidth}
+    Pour obtenir une bonne mesure les signaux emettés des deux photomultiplicateurs doivent être précise. L'image montre un bon signal d'un PMT en mesurant un photon. Il n' y a qu'un signal bien défini et à peine de bruit qui peut déranger le signal. Quand même il faut mettre un seuil (thresh) pour qu'on ne mesure que les vraies signaux.
+   \end{minipage}
+   \begin{minipage}{0.29\textwidth}
+    \begin{figure}[H]
+    \includegraphics[width=\textwidth]{bilder/pmtpuls.jpg}
+     \end{figure}
+   \end{minipage}
+
+  
+  
   \begin{tabular}{c|c|c|c}
       &temps de descente [ns]	&temps de montée [ns]	&amplitude$_{max}$ [mV]\\
     \hline
@@ -172,25 +175,24 @@ PMT 3	&	6,0	&	27,6	&	82,4	\\
 	&	5,6	&	13,2	&	43,6	\\
    \end{tabular}
 \newline
-
- Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV}, pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Ces seuils étaient les plus basse que nous pouvions mettre. La mesure donnait des seuils de \unit[15]{mV} pour les trois PMTs. Nous avons vu que les PMTs ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un photon de la même fa\c con.
+Après l'analyse des signaux nous avons mis le seuil pour le PMT 1 à \unit[19]{mV}, pour le PMT 2 à \unit[25]{mV} et pour le PMT 3 à \unit[24]{mV}. Ces seuils étaient les plus basse que nous pouvions mettre. La mesure donnait des seuils de \unit[15]{mV} pour les trois PMTs. Nous avons vu que les PMTs ont des signaux similaire, \c ca veut dire qu'ils transforment le signal d'un photon de la même fa\c con.
   
 
   \subsection{Réglage de la co\"{\i}ncidence}
 
    \subsubsection{Générer un signal logique}
-      Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux.
-    \begin{figure}
+   Le module de co\"{\i}ncidences ne peut qu'évaluer des signaux logique, alors il faut générer un signal logique du signal analytique des PMT. Nous avons utilisé un discriminateur pour réussir à le faire. De fa\c con à pas obtenir des cascades des signaux à partir d'un seul signal, il faut ensuite mettre le seuil découvrit et mettre la largeur des créneaux à environ \unit[600]{ns}. Les signaux de deux PMT sont observés à l'oscilloscope sous l'aspect s'ils sont en co\"{\i}ncidence et après on regarde si le signal du troisième PMT est en co\"{\i}ncidence avec un signal des d'autres deux. 
+    \enlargethispage{1cm}
+     \begin{figure}[H]
      \centering
-     \includegraphics[width=0.5\textwidth]{bilder/coinvrai.png}
-     \caption{Co\"{\i}ncidence entre PMT 1 et PMT 2}
-    \end{figure}
-  
+     \includegraphics[width=0.4\textwidth]{bilder/coinvrai.png}
+     \caption{\label{coin}Co\"{\i}ncidence}
+     \end{figure}
    
-  
    \subsubsection{Comptage}
-    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope (malheuresement nous n'avons pas réussi à faire un screenshot) nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[30]{s} a montré que les signaux sont comptés.
+    Après avoir observer les signaux en co\"{\i}ncidence sur l'écran de l'oscilloscope comme en voit dans la figure \ref{coin} nous avons relié les sorties des deux discriminateurs à un module de co\"{\i}ncidence. Le sortie de celui est connecté à l'echelle de comptage. Une mesure de \unit[30]{s} a montré que les signaux sont comptés.
    
+  
    
    \subsubsection{Première mesure}
 
@@ -216,22 +218,18 @@ $\sqrt M$	&	350,87	&	99,70	&	63,93	&	17,35	\\
 \end{tabular}
 
    \subsubsection{Interprétation} 
-    Nous suposse que les dates sont décrit par la distribution de Poisson:
-    \begin{equation*}
-     P_{\mu}(n)=\frac{\mu^n}{n!}\cdot e^{-{\mu}}
-    \end{equation*}
+    Nous suposse que les dates sont décrit par la distribution de Poisson $P_{\mu}(n)=\frac{\mu^n}{n!}\cdot e^{-{\mu}}$.
     Avec la moyenne $\mu$ et le nombre de fois $n$. On trouve pour $lim \; n {\rightarrow}  \infty$ que $\bar{n}$, la moyenne experimentale tend vers $\mu$ et l'écart type $\sigma$ vers $\sqrt{\mu}$:
-    \begin{equation*}
-     \bar{n}=\sum_{n=0}^{\infty} n \cdot P_{\mu}(n)=e^{-{\mu}}\sum_{n=1}^{\infty}\frac{\mu^n}{(n-1)!}=\mu \cdot  e^{-{\mu}}\sum_{k=0}^{\infty}\frac{\mu^k}{(k)!}=\mu \cdot e^{-{\mu}}\cdot  e^{{\mu}}=\mu
-    \end{equation*}
-
-    \begin{equation*}
+    \begin{eqnarray*}
+     \bar{n}=\sum_{n=0}^{\infty} n \cdot P_{\mu}(n)=e^{-{\mu}}\sum_{n=1}^{\infty}\frac{\mu^n}{(n-1)!}=\mu \cdot  e^{-{\mu}}\sum_{k=0}^{\infty}\frac{\mu^k}{(k)!}=\mu \cdot e^{-{\mu}}\cdot  e^{{\mu}}=\mu\\
      \begin{split}
       \sigma^2=\overline{(n-\bar{n}\,)^2}=\overline{n(n-1)}+\bar{n}-{\bar{n}}^2=\sum_{n=0} ^{N} n (n-1)\cdot P_{\mu}(n)+\mu -\mu^2=\\
       e^{-{\mu}}\sum_{n=2}^{\infty}\frac{\mu^n}{(n-2)!}+\mu -\mu^2=\mu^2+ \mu -\mu^2=\mu
      \end{split}
-    \end{equation*}
+    \end{eqnarray*}
     L'écart type de nos dates est dans les limites de $\sqrt{\mu}$ ce qui dit que les nombres mesurés sont bien. Il y a des petites différences qui peut être expliqué par le fait que plus des désintégration ou plus de bruit étaient mesuré.
+\enlargethispage{0.5cm}
+
    \subsubsection{Bruit}
 Comme l'installation de la manip est bon, il se pose maintenant la question comment
 savoir que les coïncidences mesurés ne sont pas des résultats des bruit. C'est pourquoi on retard un signal et compare \c ca avec un autre signal non retardé. \c Ca on fait en cause des bruits apparaissent aléatoirement et ne sont pas corrélés à les signals vrais, \c ca veut dire qu'en moyenne il y a le même nombre des co\"{i}ncidences entre le bruit d'une part et le signal retardé ou le signal non retardé  d'autre part. Au  contraire le vrais signals sont forcément corrélés donc on ne va plus messurer des co\"{i}ncidences entre les signal vrais.
@@ -260,12 +258,13 @@ temps:	\unit[10]{s} &	0	&	0	&	0	&	0	\\
 temps: \unit[100]{s}	&	1	&	0	&	0	&	0	\\
 \end{tabular}
 \newline
-Les messures affichent qu' on peut néglige les co\"{i}ncidences fortunes.
+Les messures affichent qu' on peut négliger les co\"{i}ncidences fortunes.
 
 
 
  \section{Mesure}
 \subsection{Comptage avec deux photomultiplicateurs}
+  D'abord nous avons mesuré le nombre de muons pendant \unit[100]{s} pour des co\"{\i}ncidences entre deux PMTs.\\
   \begin{tabular}{c|c|c|c}
 Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	\\ \hline
 1	&	1750	&	1661	&	991	\\
@@ -278,6 +277,7 @@ $\sqrt M$	&	42,17	&	40,98	&	31,20	\\
 \end{tabular}
 
 \subsection{Comptage avec les trois photomultiplicateurs}
+Puis nous avons aussi mesuré les co\"{\i}ncidences entre les trois PMTs et pour finir une mesure plus précise de \unit[1000]{s}. NOus avons pas eu le temps d'y faire une deuxième mesure.\\
 \begin{tabular}{c|c|c|c|c}
 Co\"{\i}ncidences	&	 1 $\leftrightarrow$ 2	&	 2 $\leftrightarrow$ 3	&	 1 $\leftrightarrow$ 3	&	1 $\leftrightarrow$ 2 $\leftrightarrow$ 3	\\ \hline
 temps: 100 s	&	1622	&	1488	&	843	&	813	\\
@@ -300,18 +300,20 @@ temps: 1000s	&	16506	&	15846	&	9054	&	8770	\\
 -par unité de temps\\
 Le nombre total de particules traversant une surface S (et donc détectables) en un temps T est donc donné par:
 \begin{equation*}
-N_{d\acute etectable}=\int_0^T \int_S \int_{\Omega} \Phi(x,y,z,\theta \,\phi,t) \underbrace{d\vec{S}.d\vec{\Omega}}_{\text{=$\vec{u_z}.\vec{u_r}\sin\theta dS d\theta d\phi=\cos\theta \sin\theta dS d\theta d\phi$}}dt
+N_{d\acute etectable}=\int_0^T \int_S \int_{\Omega} \Phi(x,y,z,\theta \,\phi,t) \underbrace{\text{d}\vec{S}.\text{d}\vec{\Omega}}_{\text{=$\vec{u_z}.\vec{u_r}\sin\theta $d$S $d$\theta $d$\phi=\cos\theta \sin\theta$d$S$ d$\theta $d$\phi$}}\text{d}t
 \end{equation*}
 Nous considérons que le flux de muons ne dépend que de la direction polaire $\theta$. Ainsi: $\Phi(x,y,z,\theta,\phi,t) = \Phi(\theta)=\Phi_0f(\theta)$ avec $\Phi_0=\Phi(0)$ est le flux vertical. Cette grandeur sera mesurée. Le nombre d'événements s'écrit donc: 
 \begin{equation*}
-N_{d\acute etectable}=\Phi_0 T\underbrace{ \int_S \int_{\Omega} f(\theta) d\vec{S}.d\vec{\Omega}}_{\text{acceptance géometrique $\alpha$ du détecteur}}=\alpha \tau \Phi_0
+N_{d\acute etectable}=\Phi_0 T\underbrace{ \int_S \int_{\Omega} f(\theta) \text{d}\vec{S}.\text{d}\vec{\Omega}}_{\text{acceptance géometrique $\alpha$ du détecteur}}=\alpha \tau \Phi_0
 \end{equation*}
 L'acceptance $\alpha$ d'un détecteur représente la fraction du flux vertical $\Phi_0$ qui traverse le détecteur.
 Et finalment pour une seule plaque:
 \begin{equation*}
-\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}f(\theta)\cos\theta \sin\theta d \theta
+\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}f(\theta)\cos\theta \sin\theta \text{d} \theta
 \end{equation*}
-Quand on regard maintenant deux plaques apparemment seulement une fraction des particules registrées par le prèmiere plaque sera registrées aussi par le dèuxieme plaque. Cette fraction s'appelle \emph{efficacité géométrique } $\epsilon_{12}^{geo}=\frac{N_{2,d\acute etectable}}{N_{1,d\acute etectable}}$. Par la présente on trouve pour le nombre de particules traversant les deux détecteurs pendant un temps de messure T:
+
+\newpage
+Quand on regarde maintenant deux plaques apparemment seulement une fraction des particules registrées par le prèmiere plaque sera registrées aussi par le dèuxieme plaque. Cette fraction s'appelle \emph{efficacité géométrique } $\epsilon_{12}^{geo}=\frac{N_{2,d\acute etectable}}{N_{1,d\acute etectable}}$. Par la présente on trouve pour le nombre de particules traversant les deux détecteurs pendant un temps de messure T:
 \begin{equation*}
 N_{2,d\acute etectable}=\epsilon_{12}^{geo}\cdot N_{1,d\acute etectable}=\underbrace{\alpha_1 \epsilon_{12}^{geo}}_{\text{=$\alpha_{12}$}}\Phi_0 T=\alpha_{12}\Phi_0 T
 \end{equation*}\\
@@ -323,19 +325,19 @@ respectivement
 \begin{equation*}
 N_{123}=b_{123}+\epsilon_{1}^{det} \epsilon_{2}^{det}\epsilon_{3}^{det}\alpha_{123}\Phi_0 T
 \end{equation*}
-pour les trois détecteurs. Le terms $b_{12}$ et $b_{123}$ réprésentent le bruit qui nous pouvons négliger comme les mesures du signal retardé ont montré. De cettes equations on peut deduire $\epsilon_{1}^{det},\epsilon_{2}^{det}\text{ et }\epsilon_{3}^{det}$:
+pour les trois détecteurs. Les terms $b_{12}$ et $b_{123}$ réprésentent le bruit qui nous pouvons négliger comme les mesures du signal retardé ont montrées. De cettes équations on peut déduire $\epsilon_{1}^{det},\epsilon_{2}^{det}\text{ et }\epsilon_{3}^{det}$:
 \begin{equation*}
-\epsilon_{1}^{det}=\frac{N_{123} \cdot \alpha_{23}}{\alpha_{123}\cdot N_{23}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{23}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{23}}
+\epsilon_{1}^{det}=\frac{N_{123} \cdot \alpha_{23}}{\alpha_{123}\cdot N_{23}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{23}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{23}}=\frac{N_{123}\cdot\epsilon_{23}^{geo}}{\epsilon_{123}^{geo}\cdot N_{23}}
 \end{equation*}
 \begin{equation*}
-\epsilon_{2}^{det}=\frac{N_{123} \cdot \alpha_{13}}{\alpha_{123}\cdot N_{13}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{13}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{13}}
+\epsilon_{2}^{det}=\frac{N_{123} \cdot \alpha_{13}}{\alpha_{123}\cdot N_{13}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{13}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{13}}=\frac{N_{123}\cdot\epsilon_{13}^{geo}}{\epsilon_{123}^{geo}\cdot N_{13}}
 \end{equation*}
 \begin{equation*}
-\epsilon_{3}^{det}=\frac{N_{123} \cdot \alpha_{12}}{\alpha_{123}\cdot N_{12}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{12}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{31}}
+\epsilon_{3}^{det}=\frac{N_{123} \cdot \alpha_{12}}{\alpha_{123}\cdot N_{12}}=\frac{N_{123} \cdot \alpha_{1}\cdot \epsilon_{12}^{geo}}{\alpha_{1}\cdot \epsilon_{123}^{geo}\cdot N_{12}}=\frac{N_{123}\cdot\epsilon_{12}^{geo}}{\epsilon_{123}^{geo}\cdot N_{12}}
 \end{equation*}
 
 
-  \subsection{Monte Carlo}
+  \subsection{Efficacité géometrique}
    Nous avons utilisé le logiciel \texttt{Calcul de l'acceptance du détecteur} pour obtenir les efficacités géometrique $\epsilon_{12}^{geo},\epsilon_{13}^{geo}, \epsilon_{23}^{geo}\text{ et }\epsilon_{123}^{geo}$. On constate que $\epsilon_{13}^{geo}=\epsilon_{123}^{geo}$ car un photon, qui passe le sintillateur 1 et 3, doit passer le scintillateur 2 qui se trouve au milieu. En plus c'est vrai que  $\epsilon_{12}^{geo}=\epsilon_{23}^{geo}$ parce que les scintillateurs ont la même distance.
 
 \begin{tabular}{c|c|c|c|c|c|c}
@@ -358,7 +360,7 @@ distribution de flux:	&	uniforme	&	$cos(x)^2$	\\ \hline
 $\epsilon_{12}^{geo}$	&	0,37 $\pm1,68\cdot10^{-3}$	&	0,52 $\pm1,66\cdot10^{-3}$	\\ 
 $\epsilon_{13}^{geo}$	&	0,18 $\pm1,53\cdot10^{-3}$	&	0,28 $\pm1,87\cdot10^{-3}$	\\ 
  $\epsilon_{23}^{geo}$	&	0,49 $\pm0,047$	&	0,55 $\pm0,042$	\\ 
-$\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,66\cdot10^{-3}$	\\ 
+$\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,87\cdot10^{-3}$	\\ 
 
 \end{tabular}
 
@@ -366,55 +368,69 @@ $\epsilon_{123}^{geo}$.	&	0,18 $\pm1,68\cdot10^{-3}$	&	0,28 $\pm1,66\cdot10^{-3}
   \subsection{Résultat}
    Le flux vertical de muons $\Phi_0$ est donné par:
    \begin{eqnarray*}
-    \Phi_0=\frac{N_{123}}{\alpha_1\cdot \epsilon_{123}^{geo}T\epsilon_{1}^{det}\epsilon_{2}^{det}\epsilon_{3}^{det}}=\frac{\left(\epsilon_{123}^{geo}\right)^2 \cdot N_{12}\cdot N_{23}\cdot N_{13}}{\alpha_1 \cdot \left(N_{123}\right)^2 \cdot \epsilon_{12}^{geo}\cdot \epsilon_{23}^{geo}\cdot \epsilon_{13}^{geo}}\\
+    \Phi_0=\frac{N_{123}}{\alpha_1\cdot \epsilon_{123}^{geo}T\epsilon_{1}^{det}\epsilon_{2}^{det}\epsilon_{3}^{det}}=\frac{\left(\epsilon_{123}^{geo}\right)^2 \cdot N_{12}\cdot N_{23}\cdot N_{13}}{\alpha_1 \cdot \left(N_{123}\right)^2 \cdot \epsilon_{12}^{geo}\cdot \epsilon_{23}^{geo}\cdot \epsilon_{13}^{geo}T}\\
     \text{avec }\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos\theta \sin\theta\text{d} \theta
    \end{eqnarray*}\\
    Le surface $S$ de détecteur est $S=\unit[1]{m}\cdot\unit[0,2]{m}=\unit[0,2]{m^2}$.\\
    Nous voulons calculer le flux absolu des muon pour deux différent hypothèse du flux des muons $f(\theta)$.
-  
-  \todo{nachrechnen...}
+ 
    \subsubsection{Flux uniforme}
     On considère un flux uniforme de la forme $f(\theta)=1$. Donc on trouve
     \begin{equation*}
-     \alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos\theta \sin\theta d \theta=\pi S
+     \alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos\theta \sin\theta \text{d}\theta=\pi S
     \end{equation*}\\
     Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
     \begin{equation*}
-     \Phi_0=\unit[48651,66]{\frac{1}{m^2s\cdot sr}}
+     \Phi_0=\unit[48,65]{\frac{1}{m^2s\cdot sr}}
     \end{equation*}
     \paragraph{Incertitude}
     L'incertitude se calcule avec la formule $\Delta\Phi_0=\sqrt{\sum_1^n \left(\frac{\text{d }\Phi_0}{\text{d }x_n}\Delta x_n\right)^2}$ avec $x_n$ les valeurs avec une incertitude $\Delta x_n$. Car nous n'avons fait qu'une mesure de $T=\unit[1000]{s}$ nous prennons l'incertidude des mesures de $T=\unit[100]{s}$ avec un facteur $k=10$. \c Ca ne donne pas l'incertitude exact, mais une incertitude assez précise car le nombre des muons detectés se multiplie avec $k$.
     \begin{equation*}
-     \Delta\Phi=\pm \unit[5324,58]{\frac{1}{m^2s\cdot sr}}
+     \Delta\Phi=\pm \unit[5,325]{\frac{1}{m^2s\cdot sr}}
     \end{equation*}
 
     
 
    \subsubsection{Flux cosinus carré}
-avec:\\
+    Ici on considère un flux de muon $f(x)=\cos^2\Theta$, d'abord on trouve
 \begin{equation*}
-\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos^2(\theta)\cos\theta \sin\theta d \theta=\frac{\pi}{2} S
+\alpha_1=2\pi S\int_0^{\frac{\pi}{2}}\cos^3\theta \sin\theta \text{d}\theta=\frac{\pi}{2} S
 \end{equation*}\\
 Avec les dates de la mesure de $T=\unit[1000]{s}$ on trouve pour le flux absolu
     \begin{equation*}
-     \Phi_0=\unit[47975,99\pm4488,55]{\frac{1}{m^2s\cdot sr}} 
+     \Phi_0=\unit[97,962\pm8,978]{\frac{1}{m^2s\cdot sr}} 
     \end{equation*}
 
-   
+     \subsection{Efficacité des détecteurs}
+    \subsubsection{Flux uniforme}
+    Alors on trouve pour l'éfficacité avec les valeurs de la mesure de $T=\unit[1000]{s}$
+     \begin{eqnarray*}
+      \epsilon_{1}^{det}&=\frac{N_{123}\cdot\epsilon_{23}^{geo}}{\epsilon_{123}^{geo}\cdot N_{23}}&=1,507 \pm 0,011\\
+      \epsilon_{2}^{det}&=\frac{N_{123}\cdot\epsilon_{13}^{geo}}{\epsilon_{123}^{geo}\cdot N_{13}}&=0,969 \pm 0,012\\
+      \epsilon_{3}^{det}&=\frac{N_{123}\cdot\epsilon_{12}^{geo}}{\epsilon_{123}^{geo}\cdot N_{12}}&=1,092 \pm 0,145\\
+     \end{eqnarray*}
+ 
+    \subsubsection{Flux cosinus carré}
+     Paraillement on trouve
+     \begin{eqnarray*}
+      \epsilon_{1}^{det}&=1,087 &=\pm 0,014 \\
+      \epsilon_{2}^{det}&=0,969 &=\pm 0,017\\
+      \epsilon_{3}^{det}&=0,988 &=\pm 0,130\\
+     \end{eqnarray*}
+
+
    \subsection{Comparaison}
-    Le flux vertical de rayonnement cosmique au niveau de la mer est $\Phi_0\approx\unit[90]{\frac{1}{m^2s\cdot sr}} $, cette valeur augmente avec l'altitude car le trajet en air est plus court, donc moins particule ont déjà réagi. \todo{Problem: unsere Werte (die ich ausgerechnet habe...) passen nicht!!!, Frage: oder bleibt er gleich, wweil Muonen kaum reagieren?}.\\
-    Nos valeurs pour les deux hypothèse sont absolument pas compatible avec le flux attendu.
+    Le flux vertical de rayonnement cosmique au niveau de la mer est $\Phi_0\approx\unit[90]{\frac{1}{m^2s\cdot sr}} $, cette valeur augmente avec l'altitude car le trajet en air est plus court, donc moins particule ont déjà réagi.\\
+    On voit qu'on ne peut pas considerer un flux uniforme des muons, mais un flux du forme $cos^2(\Theta)$. Nous avons trouvé là peu e même valeur, si on considere l'incertitude. Cette différence peut être dû parce que nous ne nous trouvons pas au niveau de la mer, mais \unit[212]{m} dessus. \\ \newpage
 
-   \subsection{Efficacité des détecteurs}
-    \todo{berechnen}
+    Les détecteurs ont une très grande efficacité. Mais on ne peut pas avoir une efficacité $>1$, car avec une efficacité de 1 un détecteur detecte chaque particule. Donc on voit encore une fois que l'hypothèse un flux uniforme de muon n'est pas correct. Pour le flux cosinus carré seulement le valeur pour $\epsilon_{1}$ est trop grand. \c Ca peut être une faute de mesure parce que le premier détecteur detécte plus que les autres car il est en haute.  
 
-
-
-
+  
+    
 
  \section{Conclusion}
   Nous avons appris comment une mesure des muons peut être realisé et nous avons vu qu'on peut très bien detécter des muons au niveau de sol. En plus nous avons calibré le dispositif et nous avons remarqué les difficulté. \\
-  A la fin nous avons fait des calculs théorétique pour verifier udes hypothèse et nous avons vu que le flux cosmique suit à peu près $f(x)=\cos^2(\Theta)$.
+  A la fin nous avons fait des calculs théorétique pour verifier des hypothèses et nous avons vu que le flux cosmique suit à peu près $f(x)=\cos^2(\Theta)$.
  
  
  \begin{appendix}

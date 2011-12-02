@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  2 DEC 2011 17:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  2 DEC 2011 18:57
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-20111221029)...disabled.
+runsystem(touch /tmp/w18-test-20111221137)...disabled.
 
-runsystem(rm -f /tmp/w18-test-20111221029)...disabled.
+runsystem(rm -f /tmp/w18-test-20111221137)...disabled.
 
 
 
@@ -1716,7 +1716,7 @@ Overfull \hbox (9.52267pt too wide) in paragraph at lines 115--116
 gre en po-si-tons, élec-trons, (anti)neutrinos
  []
 
-<bilder/hadronischer_schauer.jpg, id=170, 915.42pt x 989.19562pt>
+<bilder/hadronischer_schauer.jpg, id=171, 915.42pt x 989.19562pt>
 File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
 
 <use bilder/hadronischer_schauer.jpg> [4pdfTeX warning (ext4): destination with
@@ -1725,112 +1725,114 @@ File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.132 
-       <./bilder/03.jpg>] [5pdfTeX warning (ext4): destination with the same id
-entifier (name{figure.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.154    \end{eqnarray*}
-                         <./bilder/hadronischer_schauer.jpg>]
-Overfull \hbox (0.7507pt too wide) in paragraph at lines 162--163
-[]\T1/futs/m/n/10.95 Pour ob-te-nir une bonne me-sure les si-gnaux emet-tés des
- deux pho-to-mul-ti-pli-ca-teurs doivent
- []
-
-<bilder/pmtpuls.jpg, id=184, 323.2075pt x 190.7125pt>
+       <./bilder/03.jpg>]
+<bilder/pmtpuls.jpg, id=179, 323.2075pt x 190.7125pt>
 File: bilder/pmtpuls.jpg Graphic file (type jpg)
  <use bilder/pmtpuls.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 166--175
-
+Overfull \hbox (8.42038pt too wide) in paragraph at lines 158--166
+[]$[]$ $[]$ 
  []
 
-<bilder/coinvrai.png, id=185, 262.9825pt x 221.82875pt>
-File: bilder/coinvrai.png Graphic file (type png)
-
-<use bilder/coinvrai.png> [6 <./bilder/pmtpuls.jpg>] [7pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.4}) has been already used, dup
-licate ignored
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218    \subsubsection
-                       {InterprÃ©tation} <./bilder/coinvrai.png (PNG copy)>]
-<bilder/retard.png, id=197, 569.87906pt x 385.44pt>
+l.169   \begin{tabular}
+                       {c|c|c|c} <./bilder/hadronischer_schauer.jpg>]
+<bilder/coinvrai.png, id=187, 262.9825pt x 221.82875pt>
+File: bilder/coinvrai.png Graphic file (type png)
+
+<use bilder/coinvrai.png> [6pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.194 
+       <./bilder/pmtpuls.jpg> <./bilder/coinvrai.png (PNG copy)>]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 228.
+
+<bilder/retard.png, id=194, 569.87906pt x 385.44pt>
 File: bilder/retard.png Graphic file (type png)
  <use bilder/retard.png>
-<bilder/retard2.png, id=198, 569.87906pt x 385.44pt>
+<bilder/retard2.png, id=195, 569.87906pt x 385.44pt>
 File: bilder/retard2.png Graphic file (type png)
  <use bilder/retard2.png>
-Overfull \hbox (1.71912pt too wide) in paragraph at lines 239--250
+Overfull \hbox (1.71912pt too wide) in paragraph at lines 237--248
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--252
+Underfull \hbox (badness 10000) in paragraph at lines 234--250
 
  []
 
-[8] [9pdfTeX warning (ext4): destination with the same identifier (name{figure.
+[7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.295  \section
-               {Calculation du flux absolu de muons}pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.6}) has been already used, duplic
-ate ignored
+l.293 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.295  \section
-               {Calculation du flux absolu de muons} <./bilder/retard.png (PNG 
-copy)> <./bilder/retard2.png (PNG copy)>] [10]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 339.
+l.293 
+       <./bilder/retard.png (PNG copy)> <./bilder/retard2.png (PNG copy)>]
+[9]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 341.
 
-
-(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 341--364
+Underfull \hbox (badness 10000) in paragraph at lines 343--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--364
+Underfull \hbox (badness 10000) in paragraph at lines 343--366
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
-[12] (./rapport.bbl) (./rapport.lof [13])
+[12]
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 438
+.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [13] (./rapport.bbl)
+(./rapport.lof)
 \tf@lof=\write9
 \openout9 = `rapport.lof'.
 
  [14] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 20347 strings out of 495028
- 318009 string characters out of 1181228
- 493499 words of memory out of 3000000
- 22888 multiletter control sequences out of 15000+50000
- 106952 words of font info for 123 fonts, out of 3000000 for 9000
+ 20372 strings out of 495028
+ 318569 string characters out of 1181228
+ 493802 words of memory out of 3000000
+ 22912 multiletter control sequences out of 15000+50000
+ 102366 words of font info for 120 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 60i,17n,79p,642b,1024s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-tt0800.600pk> </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600
-pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fon
-ts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/f
-ourier-mex.pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-ml.
-pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr
-/share/texmf-texlive/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adob
-e/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.
-pfb>
-Output written on rapport.pdf (14 pages, 449612 bytes).
+ 60i,14n,69p,639b,831s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} </home/
+sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{/usr/share/texmf/
+fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.
+enc}</usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mex.pfb></usr/
+share/texmf-texlive/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texmf
+-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-texlive/
+fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putr8a.pfb><
+/usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on rapport.pdf (14 pages, 450796 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 303 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
  264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

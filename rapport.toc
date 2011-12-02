@@ -3,29 +3,29 @@
 \contentsline {subsection}{\numberline {1.1}Gerbes \IeC {\'e}lectroniques}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Cascade hadronique}{4}{subsection.1.2}
 \contentsline {paragraph}{Calcul non-relativiste}{5}{section*.2}
-\contentsline {paragraph}{Calcul relativiste}{6}{section*.3}
+\contentsline {paragraph}{Calcul relativiste}{5}{section*.3}
 \contentsline {section}{\numberline {2}Pr\IeC {\'e}liminaire}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Pr\IeC {\'e}paration des photomultiplicateurs}{6}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}R\IeC {\'e}glage de la co\"{\i }ncidence}{7}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}G\IeC {\'e}n\IeC {\'e}rer un signal logique}{7}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}R\IeC {\'e}glage de la co\"{\i }ncidence}{6}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}G\IeC {\'e}n\IeC {\'e}rer un signal logique}{6}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Comptage}{7}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{8}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Interpr\IeC {\'e}tation}{8}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}Bruit}{9}{subsubsection.2.2.5}
-\contentsline {section}{\numberline {3}Mesure}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Comptage avec deux photomultiplicateurs}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Comptage avec les trois photomultiplicateurs}{10}{subsection.3.2}
-\contentsline {section}{\numberline {4}Calculation du flux absolu de muons}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Equations}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Monte Carlo}{11}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}R\IeC {\'e}sultat}{12}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Flux uniforme}{12}{subsubsection.4.3.1}
-\contentsline {paragraph}{Incertitude}{12}{section*.4}
-\contentsline {subsubsection}{\numberline {4.3.2}Flux cosinus carr\IeC {\'e}}{13}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Comparaison}{13}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Efficacit\IeC {\'e} des d\IeC {\'e}tecteurs}{13}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Flux uniforme}{13}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Flux cosinus carr\IeC {\'e}}{13}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Premi\IeC {\`e}re mesure}{7}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Interpr\IeC {\'e}tation}{7}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Bruit}{8}{subsubsection.2.2.5}
+\contentsline {section}{\numberline {3}Mesure}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Comptage avec deux photomultiplicateurs}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Comptage avec les trois photomultiplicateurs}{9}{subsection.3.2}
+\contentsline {section}{\numberline {4}Calculation du flux absolu de muons}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Equations}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Efficacit\IeC {\'e} g\IeC {\'e}ometrique}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}R\IeC {\'e}sultat}{11}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Flux uniforme}{11}{subsubsection.4.3.1}
+\contentsline {paragraph}{Incertitude}{11}{section*.4}
+\contentsline {subsubsection}{\numberline {4.3.2}Flux cosinus carr\IeC {\'e}}{12}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Efficacit\IeC {\'e} des d\IeC {\'e}tecteurs}{12}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Flux uniforme}{12}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Flux cosinus carr\IeC {\'e}}{12}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Comparaison}{12}{subsection.4.5}
 \contentsline {section}{\numberline {5}Conclusion}{13}{section.5}
-\contentsline {section}{\numberline {A}R\'ef\'erences}{13}{appendix.A}
+\contentsline {section}{\numberline {A}R\'ef\'erences}{14}{appendix.A}
 \contentsline {section}{\numberline {B}Table des figures}{14}{appendix.B}
