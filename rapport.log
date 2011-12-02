@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  2 DEC 2011 11:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  2 DEC 2011 12:07
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-2011122719)...disabled.
+runsystem(touch /tmp/w18-test-2011122727)...disabled.
 
-runsystem(rm -f /tmp/w18-test-2011122719)...disabled.
+runsystem(rm -f /tmp/w18-test-2011122727)...disabled.
 
 
 
@@ -1828,7 +1828,7 @@ pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr
 f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adob
 e/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.
 pfb>
-Output written on rapport.pdf (14 pages, 448492 bytes).
+Output written on rapport.pdf (14 pages, 448289 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
