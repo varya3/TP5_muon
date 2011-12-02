@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  1 DEC 2011 13:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.18)  2 DEC 2011 11:59
 entering extended mode
  %&-line parsing enabled.
 **rapport.tex
@@ -1219,9 +1219,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count161
 \listing@line=\count162
 )
-runsystem(touch /tmp/w18-test-2011121818)...disabled.
+runsystem(touch /tmp/w18-test-2011122719)...disabled.
 
-runsystem(rm -f /tmp/w18-test-2011121818)...disabled.
+runsystem(rm -f /tmp/w18-test-2011122719)...disabled.
 
 
 
@@ -1669,13 +1669,13 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 18.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 24.
+(scrartcl)            on input line 27.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 25.
+(scrartcl)            on input line 28.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 26.
+(scrartcl)            on input line 29.
 )
 \tf@toc=\write8
 \openout8 = `rapport.toc'.
@@ -1689,7 +1689,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 54.
  [2]
-<bilder/emschauer.jpg, id=135, 674.52pt x 537.50812pt>
+<bilder/emschauer.jpg, id=145, 674.52pt x 537.50812pt>
 File: bilder/emschauer.jpg Graphic file (type jpg)
 
 <use bilder/emschauer.jpg>
@@ -1702,7 +1702,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 86--87
 \T1/futs/m/n/10.95 ton se-con-daire peut aussi gé-né-rer un pair
  []
 
-<bilder/03.jpg, id=137, 710.655pt x 573.64313pt>
+<bilder/03.jpg, id=147, 710.655pt x 573.64313pt>
 File: bilder/03.jpg Graphic file (type jpg)
  <use bilder/03.jpg> [3pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.1}) has been already used, duplicate ignored
@@ -1716,7 +1716,7 @@ Overfull \hbox (9.52267pt too wide) in paragraph at lines 115--116
 gre en po-si-tons, élec-trons, (anti)neutrinos
  []
 
-<bilder/hadronischer_schauer.jpg, id=150, 915.42pt x 989.19562pt>
+<bilder/hadronischer_schauer.jpg, id=160, 915.42pt x 989.19562pt>
 File: bilder/hadronischer_schauer.jpg Graphic file (type jpg)
 
 <use bilder/hadronischer_schauer.jpg> [4pdfTeX warning (ext4): destination with
@@ -1737,14 +1737,14 @@ Overfull \hbox (0.7507pt too wide) in paragraph at lines 162--163
  deux pho-to-mul-ti-pli-ca-teurs doivent
  []
 
-<bilder/pmtpuls.jpg, id=164, 323.2075pt x 190.7125pt>
+<bilder/pmtpuls.jpg, id=174, 323.2075pt x 190.7125pt>
 File: bilder/pmtpuls.jpg Graphic file (type jpg)
  <use bilder/pmtpuls.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 166--175
 
  []
 
-<bilder/coinvrai.png, id=165, 262.9825pt x 221.82875pt>
+<bilder/coinvrai.png, id=175, 262.9825pt x 221.82875pt>
 File: bilder/coinvrai.png Graphic file (type png)
 
 <use bilder/coinvrai.png> [6 <./bilder/pmtpuls.jpg>] [7pdfTeX warning (ext4): d
@@ -1755,10 +1755,10 @@ licate ignored
                                                   \fi \fi 
 l.218    \subsubsection
                        {InterprÃ©tation} <./bilder/coinvrai.png (PNG copy)>]
-<bilder/retard.png, id=177, 569.87906pt x 385.44pt>
+<bilder/retard.png, id=187, 569.87906pt x 385.44pt>
 File: bilder/retard.png Graphic file (type png)
  <use bilder/retard.png>
-<bilder/retard2.png, id=178, 569.87906pt x 385.44pt>
+<bilder/retard2.png, id=188, 569.87906pt x 385.44pt>
 File: bilder/retard2.png Graphic file (type png)
  <use bilder/retard2.png>
 Overfull \hbox (1.71912pt too wide) in paragraph at lines 239--250
@@ -1784,18 +1784,11 @@ ate ignored
                                                   \fi \fi 
 l.295  \section
                {Calculation du flux absolu de muons} <./bilder/retard.png (PNG 
-copy)> <./bilder/retard2.png (PNG copy)>]
-Overfull \hbox (9.57898pt too wide) in paragraph at lines 313--315
-\T1/futs/m/n/10.95 frac-tion s'ap-pelle \T1/futs/m/it/10.95 ef-fi-ca-cité géo-m
-é-trique $\FML/futmi/m/it/10.95 ^^O[] \FMS/futm/m/n/10.95  \FML/futmi/m/it/10.
-95 N[]\T1/futs/m/n/10.95 /\FML/futmi/m/it/10.95 N[]$\T1/futs/m/n/10.95 . Par la
- pré-sente on trouve
- []
-
-[10]
+copy)> <./bilder/retard2.png (PNG copy)>] [10]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 339.
 
- (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 341--364
@@ -1808,28 +1801,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--364
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
-
- []
-
-(./rapport.bbl [12]) (./rapport.lof)
+[12] (./rapport.bbl) (./rapport.lof [13])
 \tf@lof=\write9
 \openout9 = `rapport.lof'.
 
- [13] (./rapport.aux) ) 
+ [14] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 20342 strings out of 495028
- 317908 string characters out of 1181228
- 490690 words of memory out of 3000000
- 22884 multiletter control sequences out of 15000+50000
- 116250 words of font info for 129 fonts, out of 3000000 for 9000
+ 20343 strings out of 495028
+ 317928 string characters out of 1181228
+ 492950 words of memory out of 3000000
+ 22886 multiletter control sequences out of 15000+50000
+ 106952 words of font info for 123 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 60i,17n,73p,642b,958s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,17n,79p,642b,1024s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 tt0800.600pk> </home/sabine/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600
 pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fon
@@ -1840,9 +1828,9 @@ pfb></usr/share/texmf-texlive/fonts/type1/public/fourier/fourier-mlit.pfb></usr
 f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/adob
 e/utopia/putr8a.pfb></usr/share/texmf-texlive/fonts/type1/adobe/utopia/putri8a.
 pfb>
-Output written on rapport.pdf (13 pages, 440714 bytes).
+Output written on rapport.pdf (14 pages, 448492 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
